@@ -1,5 +1,7 @@
 # Day 0 - Creating Your Own Server - with AWS Free Tier
 
+* [complementary video](https://youtu.be/nj4ySNM-wcY)
+
 ## INTRO
 
 First, you need a server. You can't really learn about administering a remote Linux server without having one of your own - so today we're going get one - completely free!
