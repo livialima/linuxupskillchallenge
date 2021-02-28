@@ -1,5 +1,7 @@
 # Day 0 - Creating Your Own Server - with Google Cloud Platform Free Tier
 
+* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
+
 _(DRAFT: Use this as a guide, but it has not been fully tested. Please let us know of any issues with it)_
 
 ## INTRO

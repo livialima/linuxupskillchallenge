@@ -1,5 +1,7 @@
 # Day 0 - Creating Your Own Server - with a $5 Digital Ocean plan
 
+* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
+
 ## INTRO
 
 First, you need a server. You can't really learn about administering a remote Linux server without having one of your own - so today we're going to buy one!
@@ -63,7 +65,7 @@ With our new working user able to perform all sysadmin tasks, there is no reason
 
 `sudo usermod -p "!" root`
 
-This disables direct login access, while still allowing approved logged in users to "become root' as necessary - and is the normal default configuration of an Ubuntu system. (Digital Ocean's choice to enable "root" in their image is non-standard).  
+This disables direct login access, while still allowing approved logged in users to "become root' as necessary - and is the normal default configuration of an Ubuntu system. (Digital Ocean's choice to enable "root" in their image is non-standard).
 
 To logout, type _logout_ or _exit_.
 

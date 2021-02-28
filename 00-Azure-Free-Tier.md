@@ -1,5 +1,7 @@
 # Day 0 - Creating Your Own Server - with Azure Free Credits
 
+* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
+
 ## INTRO
 
 First, you need a server. You can't really learn about administering a remote Linux server without having a one of your own - so today we're going get one - completely free!

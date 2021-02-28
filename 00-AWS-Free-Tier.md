@@ -1,6 +1,7 @@
 # Day 0 - Creating Your Own Server - with AWS Free Tier
 
-* [complementary video](https://youtu.be/nj4ySNM-wcY)
+* [Complementary video](https://youtu.be/nj4ySNM-wcY)
+* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
 
 ## INTRO
 
