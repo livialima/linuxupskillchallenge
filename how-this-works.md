@@ -2,10 +2,9 @@
 
 * [Website of the course](https://LinuxUpskillChallenge.org)
 * [Monthly "Linux Upskill Challenge"](https://www.reddit.com/r/linuxupskillchallenge/)
-* [Overview of the course content](https://github.com/snori74/linuxupskillchallenge/blob/master/TOC.md)
-* [Full lesson "source"](https://github.com/snori74/linuxupskillchallenge) 
+* [Overview of the course content](https://github.com/livialima/linuxupskillchallenge/blob/master/TOC.md)
+* [Full lesson "source"](https://github.com/livialima/linuxupskillchallenge) 
 * [Chat with Discord](https://discordapp.com/invite/wd4Zqyk)
-* [Recent feedback...](https://www.reddit.com/r/linuxupskillchallenge/comments/j3g2s0/thoughts_and_comments_day_20/)
 
 ## You'll need to setup a cloud-based server
 
@@ -29,7 +28,7 @@ However, many others have happily used the course simply to improve their Linux 
 
 ## A daily lesson
 
-One of the key elements of the course is that the material is delivered in 20 bite-sized lessons, one each workday into this subreddit. At any one time, just the last four lessons are available (we remove the older ones) – this gives you a bit of an incentive to “keep up”.
+One of the key elements of the course is that the material is delivered in 20 bite-sized lessons, one each workday into this subreddit.
 
 The course always starts on the first Monday of the month. The first few days are pretty basic, but there's generally some "Extension" items for the more experienced.
 
@@ -39,6 +38,7 @@ Expect to spend 1-2 hours going through each. Some find it handy to read the not
 
 Feel free to post questions or comments here in the subreddit – or chat using the Discord server (<https://discordapp.com/invite/wd4Zqyk>) run by u/cobaltrune.
 
-## Patreon?
+## Who made this?
 
-No, but there are [a number of ways you can support and show your appreciation](http://snori74.blogspot.com/2020/09/how-can-you-support-linuxupskillchallen.html).
+The magnificent [Steve Brorens](http://snori74.blogspot.com). Unfortunately, [he passed](https://www.reddit.com/r/linuxupskillchallenge/comments/mki3uw/rest_in_peace_snori74/) but not before ensuring the course would continue to run in his absence.
+We miss you, snori.

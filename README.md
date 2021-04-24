@@ -7,10 +7,8 @@ This includes all the source material for the 20 lessons of what was previously 
 
 * Monthly "Linux Upskill Challenge": https://www.reddit.com/r/linuxupskillchallenge/
 
-* Lesson "source": https://github.com/snori74/linuxupskillchallenge
+* Lesson "source": https://github.com/livialima/linuxupskillchallenge
 
 * Chat at: https://discordapp.com/invite/wd4Zqyk
 
-You are free to use this under the terms of the license, but copyright remains with the author.
-  
- - Steve
+You are free to use this under the terms of the license, but copyright remains with the author, Steve Brorens.
