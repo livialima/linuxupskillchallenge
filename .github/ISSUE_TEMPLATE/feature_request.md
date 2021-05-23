@@ -1,7 +1,8 @@
 ---
 name: Feature request
-about: Suggest new features for the daily lessons. For features, submit a distinct
-  issue using the template Correction request. Submit a pull request if you can.
+about: Suggest new features for the daily lessons. For mistakes, typos, broken links,
+  submit a distinct issue using the template Correction request. Submit a pull request
+  if you can.
 title: Day X - feature request
 labels: ''
 assignees: ''
