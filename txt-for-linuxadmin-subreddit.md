@@ -1,4 +1,4 @@
-TITLE: A month-long challenge for anyone wanting to build Linux sysadmin skills starting soon...
+TITLE: A month-long challenge for anyone wanting to build Linux sysadmin skills starting 
 
 The http://linuxupskillchallenge.org Linux commandline/sysadmin "challenge" course starts again soon on the first Monday of next month.
 

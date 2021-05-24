@@ -1,4 +1,4 @@
-TITLE: Free intro to Linux commandline/server course starting shortly... 
+TITLE: Free intro to Linux commandline/server course starting 
 
 This free month-long course is re-starting again on the first Monday of next month.
 
