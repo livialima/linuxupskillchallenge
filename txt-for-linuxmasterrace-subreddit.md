@@ -1,4 +1,4 @@
-TITLE: Linux upskill challenge starting 
+TITLE: Linux upskill challenge starting soon...
 
 A month-long challenge for anyone wanting to build Linux sysadmin skills - http://linuxupskillchallenge.org
 

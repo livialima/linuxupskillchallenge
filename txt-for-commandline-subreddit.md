@@ -1,4 +1,4 @@
-TITLE: Free Linux commandline "upskill" course starting 
+TITLE: Free Linux commandline "upskill" course starting shortly...
 
 This free month-long course is re-starting again on the first Monday of next month.
 

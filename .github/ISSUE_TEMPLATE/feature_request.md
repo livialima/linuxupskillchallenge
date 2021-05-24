@@ -1,18 +1,20 @@
 ---
 name: Feature request
-about: Suggest new features for the daily lessons. For mistakes, typos, broken links,
-  submit a distinct issue using the template Correction request. Submit a pull request
-  if you can.
-title: Day X - feature request
+about: Suggest an idea for this project
+title: ''
 labels: ''
 assignees: ''
 
 ---
 
-Replace X for the number 0-21 of the lesson.
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Proposal**
-Your proposed new feature or change here. Please detail it as much as possible.
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
+
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
 **Additional context**
-Add any other context here.
+Add any other context or screenshots about the feature request here.
