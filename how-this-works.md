@@ -1,4 +1,4 @@
-# HOW THIS WORKS...
+# HOW THIS WORKS... always read it first!
 
 * [Website of the course](https://LinuxUpskillChallenge.org)
 * [Monthly "Linux Upskill Challenge"](https://www.reddit.com/r/linuxupskillchallenge/)
@@ -6,13 +6,11 @@
 * [Full lesson "source"](https://github.com/livialima/linuxupskillchallenge) 
 * [Chat with Discord](https://discordapp.com/invite/wd4Zqyk)
 
-## You'll need to setup a cloud-based server
-
-Do I *really* need a cloud-based server?
+## Do I really need to setup a cloud-based server?
 
 Yes, if you’re in the target audience (see below) you definitely should. The fact that such a server is very remote, and open to attack from the whole Internet, “makes it real”. Learning how to setup such a VPS is also a handy skill for any sysadmin.
 
-Instructions for setting up a suitable server with a couple of providers are in the "Day 0" posts. By all means use a different provider, but ensure you use Ubuntu LTS (preferably 20.04), and either use public key authentication or a Long, Strong, Unique password.
+Instructions for setting up a suitable server with a couple of providers are in the "Day 0" posts. By all means use a different provider, but ensure you use Ubuntu LTS (preferably the latest release), and either use public key authentication or a Long, Strong, Unique password.
 
 Of course, you’re perfectly entitled to use a local VM, an old laptop in the corner or a Raspberry Pi instead – and all of these will work fine for the course material.
 
@@ -40,5 +38,10 @@ Feel free to post questions or comments here in the subreddit – or chat using 
 
 ## Who made this?
 
-The magnificent [Steve Brorens](http://snori74.blogspot.com). Unfortunately, [he passed](https://www.reddit.com/r/linuxupskillchallenge/comments/mki3uw/rest_in_peace_snori74/) but not before ensuring the course would continue to run in his absence.
+The magnificent [Steve Brorens](http://snori74.blogspot.com). Unfortunately, [he passed away](https://www.reddit.com/r/linuxupskillchallenge/comments/mki3uw/rest_in_peace_snori74/) but not before ensuring the course would continue to run in his absence.
 We miss you, snori.
+
+## How can I help?
+
+Any help is super, super welcome! We don't have many mods, and they all have full-time jobs, so if you can answer other users questions on the subrredit or on discord, it's a big help and encourages discussion.
+If you see room for improvements on the text of the lessons, or the resources, you can write your suggestions as part of the discussion, or [directly submit an issue](https://github.com/livialima/linuxupskillchallenge/issues/new/choose) to the source material.
