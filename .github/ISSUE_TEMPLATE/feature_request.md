@@ -1,7 +1,13 @@
 ---
 name: Feature request
+<<<<<<< HEAD
 about: Suggest an idea for this project
 title: ''
+=======
+about: Suggest new features for the daily lessons. For features, submit a distinct
+  issue using the template Correction request. Submit a pull request if you can.
+title: Day X - feature request
+>>>>>>> parent of ed3fb97 (Update issue templates)
 labels: ''
 assignees: ''
 
