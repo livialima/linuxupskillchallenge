@@ -14,9 +14,10 @@ Note that many will also require you to be over 18 (but not all), and this is tr
 
 So, if you are in this situation, below are some of your options:
 
-## Free Trial
+## Kind of a free trial
 
-* <https://www.ibm.com/cloud/free> - no credit card or student email required, 30 days trial. (VPS service known as Hyper Protect Virtual Server)
+* <https://cloud.ibm.com/> - Hyper Protect Virtual Server is no longer available for free accounts like it used to. Now you have to upgrade to a Pay-As-You-Go account to receive a $200 credit.
+
 
 ## Educational packs
 
@@ -48,3 +49,12 @@ Note that:
 * This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now
+
+## Or you can just work with a local virtual machine
+
+You can run the challenge on a home server and all the commands will work as they would on a cloud server. However, not being exposed to the wild certainly loses the feel of what real sysadmins have to face.
+
+If you set your own VM at a private server, go for the minimum requirements like 1GHz CPU core, 512MB RAM, and a couple of gigs of disk space. You can always adapt this to your heart's desire (or how much hardware you have available).
+
+Our recommendation is: use a cloud server if you can, to get the full experience, but don't get limited by it. **This is your server.**
+
