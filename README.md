@@ -7,6 +7,8 @@ This includes all the source material for the 20 lessons of what was previously 
 * Lesson "source": (<https://github.com/livialima/linuxupskillchallenge>)
 * Chat at: (<https://discordapp.com/invite/wd4Zqyk>)
 
+## READ THIS FIRST!
+[HOW THIS WORKS & FAQ](how-this-works.md)
 
 ## Table of Contents
 
