@@ -2,6 +2,8 @@
 
 * [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
 
+**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/njlg3w/how_this_works/)
+
 ## INTRO
 
 We normally recommend using Amazon's AWS "Free Tier" (<http://aws.amazon.com>) or Digital Ocean (<https://digitalocean.com>) - but both require that you have a credit card. The same is true of the Microsoft Azure, Google's GCP and the vast majority of providers listed at Low End Box (<https://lowendbox.com/>).

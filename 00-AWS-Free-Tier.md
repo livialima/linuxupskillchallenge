@@ -3,6 +3,8 @@
 * [Complementary video](https://youtu.be/nj4ySNM-wcY)
 * [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
 
+**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/njlg3w/how_this_works/)
+
 ## INTRO
 
 First, you need a server. You can't really learn about administering a remote Linux server without having one of your own - so today we're going get one - completely free!

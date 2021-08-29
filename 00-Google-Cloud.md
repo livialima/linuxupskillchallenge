@@ -4,6 +4,8 @@
 
 _(DRAFT: Use this as a guide, but it has not been fully tested. Please let us know of any issues with it)_
 
+**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/njlg3w/how_this_works/)
+
 ## INTRO
 
 First, you need a server. You can't really learn about administering a remote Linux server without having a one of your own - so today we're going get one - completely free!
