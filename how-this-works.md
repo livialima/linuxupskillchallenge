@@ -25,7 +25,7 @@ The course always starts on the first Monday of the month. One of the key elemen
 
 Depending on your experience and dedication, you can expect to spend 1-2 hours going through each lesson. The first few days are pretty basic, but there's generally some "Extension" items to spice things up a bit.
 
-But don't worry, you can totally self-pace this if you want, the resources and discussions are kept for reference forever (of for as long as Reddit allow us).
+But don't worry, you can totally self-pace this if you want, the resources and discussions are kept for reference forever (or for as long as Reddit allow us).
 
 ## Do I really need a cloud-based server?
 
