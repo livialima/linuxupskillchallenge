@@ -1,5 +1,11 @@
 TITLE: Linux commandline/sysadmin course starting 
 
-Daily lessons appear in  the sub-reddit /r/linuxupskillchallenge  - which is also used for support/discussion. This is a 'rolling' course repeated each month. Announcing now to give you plenty of time to set up your server if you want to participate.  More detail at: http://linuxupskillchallenge.org 
+This free month-long course is re-starting again on the first Monday of next month.
 
-Any feedback very welcome.
+Suitable whatever your background, and aims to provide that "base layer" of traditional Linux skills in a fun interactive way.
+
+The course is free, and daily lessons appear in the sub-reddit r/linuxupskillchallenge - which is used for support/discussion. A [discord server](https://discordapp.com/invite/wd4Zqyk) is also available.
+
+More details at our [FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/).
+
+Any feedback is very welcomed.

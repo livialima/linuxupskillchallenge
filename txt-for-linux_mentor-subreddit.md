@@ -2,8 +2,10 @@ TITLE: The junior sysadmin course at r/LinuxUpskillChallenge restarting
 
 This free month-long course is re-starting again on the first Monday of next month.
 
-Daily lessons appear in the sub-reddit r/linuxupskillchallenge - which is also used for support/discussion.
+Suitable whatever your background, and aims to provide that "base layer" of traditional Linux skills in a fun interactive way.
 
-Has been running successfully now every month since February 2020 - more detail at: https://LinuxUpskillChallenge.org
+The course is free, and daily lessons appear in the sub-reddit r/linuxupskillchallenge - which is used for support/discussion. A [discord server](https://discordapp.com/invite/wd4Zqyk) is also available.
 
-Any feedback very welcome.
+More details at our [FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/).
+
+Any feedback is very welcomed.
