@@ -4,7 +4,7 @@
 
 _(DRAFT: Use this as a guide, but it has not been fully tested. Please let us know of any issues with it)_
 
-**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/njlg3w/how_this_works/)
+**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## INTRO
 

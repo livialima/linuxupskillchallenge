@@ -2,7 +2,7 @@
 
 * [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
 
-**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/njlg3w/how_this_works/)
+**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## INTRO
 
@@ -15,11 +15,6 @@ Note that many will also require you to be over 18 (but not all), and this is tr
 **WARNING:** If you go searching too deeply for options in this area, you're very likely to come across a range of scammy, fake, or fraudulent sites. While we've tried to eliminate these from the links below, please do be careful! It should go without saying that none of these are "affiliate" links, and we get no kick-backs from any of them :-)
 
 So, if you are in this situation, below are some of your options:
-
-## Kind of a free trial
-
-* <https://cloud.ibm.com/> - Hyper Protect Virtual Server is no longer available for free accounts like it used to. Now you have to upgrade to a Pay-As-You-Go account to receive a $200 credit.
-
 
 ## Educational packs
 
@@ -36,7 +31,6 @@ So, if you are in this situation, below are some of your options:
 | Provider      | Instant Activation? | Must be a student?        | VPS ram       | VPS cpu count | Time                         | Credits |
 | ------------- | ------------------- | ------------------------- | ------------- | ------------- | ---------------------------- | ------- |
 | Azure         | Yes                 | Yes                       | 1gb/ 512mb\*2 | 1/2           | 1 year, renewed up to 4 years | \$100   |
-| *IBM Cloud*   | Yes                 | No                        | 2gb           | 1             | 30 days                      | N/A     |
 | AWS educate   | No                  | Yes (Github student pack) | ???           | ???           | ???                          | \$100   |
 | Digital Ocean | No                  | Yes (Github student pack) | ???           | ???           | ???                          | \$50    |
 
@@ -51,6 +45,10 @@ Note that:
 * This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now
+
+## But what if I don’t want to use a cloud provider? I have a server/VM at home.
+
+Then use your server.
 
 ## Or you can just work with a local virtual machine
 
