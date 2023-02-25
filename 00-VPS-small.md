@@ -1,10 +1,10 @@
-# Day 0 - Creating Your Own Server - with a $5 Digital Ocean plan
+# Day 0 - Creating Your Own Server in the Cloud (but cheaper)
 
 * [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
 
 **READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
-## INTRO
+## Creating Your Own Server with a $5 Digital Ocean plan
 
 First, you need a server. You can't really learn about administering a remote Linux server without having one of your own - so today we're going to buy one!
 
