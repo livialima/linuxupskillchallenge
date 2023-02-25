@@ -12,7 +12,7 @@ This includes all the source material for the 20 lessons of what was previously 
 
 ## Table of Contents
 
-* [Day 0](00-AWS-Free-Tier.md) - **Creating Your Own Server**: how to setup your lab in [AWS](00-AWS-Free-Tier.md), [Azure](00-Azure-Free-Tier.md), [Digital Ocean](00-Digital-Ocean.md), [Google Cloud](00-Google-Cloud.md) and [others](00-Remote-server-without-Credit-Card.md)
+* [Day 0](00-AWS-Free-Tier.md) - **Creating Your Own Server**: how to setup your lab in [AWS](00-AWS-Free-Tier.md), [Azure](00-Azure-Free-Tier.md), [Google Cloud](00-Google-Cloud.md), [Digital Ocean](00-VPS-small.md) and [others](00-Local-Server.md)
 * [Day 1](01.md) - **Get to know your server**: Starting with `ssh`-ing in and some simple commands like: `ls`, `uptime`, `free`, `df -h`, `uname -a`. Extensions on doing passwordless login with public keys and and an `ssh` config file.
 * [Day 2](02.md) - **Basic navigation**: Basic navigation, the "man" pages, file hierarchy
 * [Day 3](03.md) - **Power trip!**: Working with `sudo`, `uptime`, `timezones`, changing your hostname
