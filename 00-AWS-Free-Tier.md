@@ -15,6 +15,19 @@ In addition to a hosting provider, we also need to choose which "flavour" of Lin
 
 These instructions will walk you through using Amazon's AWS "Free Tier" (<http://aws.amazon.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface. Although we'll be using the Free Tier, be warned that you will need to provide valid credit card information. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server 20.04)
 
+## AWS free-tier, is it always free?
+The AWS Free Tier is designed to allow new users to explore and test various AWS services without incurring any costs for 12 months following the AWS sign-up date, subject to certain usage limits. When your 12 month free usage term expires or if your application use exceeds the tiers, you simply pay standard, pay-as-you-go service rates. You can extend that free usage with an Educate Pack, if you are eligible.
+
+## Signing up with AWS Educate pack:
+
+* Go to the AWS Educate website at https://aws.amazon.com/education/awseducate/
+* Click on the "Join AWS Educate" button located at the top right corner of the page.
+* Choose the option that best describes you, whether you are a student or an educator.
+* Create an AWS Educate account by filling out the required information, including your name, email address, and the name of your school or institution.
+* Once you have created your account, you can access the AWS Educate Starter Account, which includes $100 in AWS Promotional Credits, free access to over 25 AWS services, and self-paced labs and tutorials to help you get started with AWS.
+
+Please note that the AWS Educate program is intended for students and educators who are interested in learning about cloud computing and AWS services. In order to be eligible for the program, you will need to provide proof of your status as a student or educator.
+
 ## Signing up with AWS
 
 Sign-up is fairly simple - just provide your email address and a password of your choosing - along with a phone number for a 2FA - a second method of authentication.
