@@ -14,7 +14,7 @@ Through the magic of Linux and virtualisation, it's now possible to get a small 
 
 As well as a hosting provider, we also need to choose which "flavour" of Linux to install on our server. If you're new to Linux then the range of "distributions" available can be confusing - but the latest LTS ("Long Term Support") version of Ubuntu Server is a popular choice, and what you'll need for this course.
 
-These instruction will walk you through using Google Cloud "Free Tier" (<https://cloud.google.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface. Although we'll be using the Free Tier, be warned that you will need to provide valid credit card information. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server 20.04)
+These instruction will walk you through using Google Cloud "Free Tier" (<https://cloud.google.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface. Although we'll be using the Free Tier, be warned that you will need to provide valid credit card information. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server LTS)
 
 ## Signing up with GCP
 
@@ -25,7 +25,7 @@ You will need to also provide your VISA or other credit card information.
 * Create a new instance.
 * Select whichever regions you want.
 * For Machine Configuration select series and set to "E2" and Machine type to "e2-micro".
-* Change boot disk to "Ubuntu 20.04 LTS"
+* Change boot disk to "Ubuntu LTS"
 
 Now after we create our own server, we need to open all ports and protocols to access from anywhere. While this might be unwise for a production server, it is what we want for this course.
 
