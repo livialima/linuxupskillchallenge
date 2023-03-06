@@ -12,14 +12,14 @@ Through the magic of Linux and virtualization, it's now possible to get a small 
 
 In addition to a hosting provider, we also need to choose which "flavour" of Linux to install on our server. If you're new to Linux then the range of "distributions" available can be confusing - but the latest LTS ("Long Term Support") version of Ubuntu Server is a popular choice, and what you'll need for this course.
 
-These instructions will walk you through using Digital Ocean (<http://digitalocean.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface - and low cost of $5 (USD) per month for the minimal server that you'll be creating. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server 20.04)
+These instructions will walk you through using Digital Ocean (<http://digitalocean.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface - and low cost of $5 (USD) per month for the minimal server that you'll be creating. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server LTS)
 
 ## Signing up with Digital Ocean
 
 Sign-up is immediate - just provide your email address and a password of your choosing and you're in!
 
 * Choose "Manage, Droplets" from the left-hand sidebar. (a "droplet" is Digital Ocean's cute name for a server!)
-* Select the image "Ubuntu 20.04 LTS"
+* Select the image "Ubuntu LTS"
 * For plan, choose "Starter"
 * You'll be prompted to start a $40/mo. plan, but select "Show all plans", and select the $5/mo. one - that's fine for this course.
 * You don't need to add any block storage.
