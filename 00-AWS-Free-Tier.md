@@ -13,7 +13,7 @@ Through the magic of Linux and virtualization, it's now possible to get a small 
 
 In addition to a hosting provider, we also need to choose which "flavour" of Linux to install on our server. If you're new to Linux then the range of "distributions" available can be confusing - but the latest LTS ("Long Term Support") version of Ubuntu Server is a popular choice, and what you'll need for this course.
 
-These instructions will walk you through using Amazon's AWS "Free Tier" (<http://aws.amazon.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface. Although we'll be using the Free Tier, be warned that you will need to provide valid credit card information. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server 20.04)
+These instructions will walk you through using Amazon's AWS "Free Tier" (<http://aws.amazon.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface. Although we'll be using the Free Tier, be warned that you will need to provide valid credit card information. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server LTS)
 
 ## AWS free-tier, is it always free?
 The AWS Free Tier is designed to allow new users to explore and test various AWS services without incurring any costs for 12 months following the AWS sign-up date, subject to certain usage limits. When your 12 month free usage term expires or if your application use exceeds the tiers, you simply pay standard, pay-as-you-go service rates. You can extend that free usage with an Educate Pack, if you are eligible.
@@ -40,7 +40,7 @@ Logout, then login again, and then select:
 * Services - from the top menu
 * EC2 - from the list of services
 
-In "AWS speak" the server we'll create will be an "EC2 compute instance" - so now choose "Launch Instance". You will be presented with several image options - choose one with "Ubuntu Server 20.04 LTS" in the name.
+In "AWS speak" the server we'll create will be an "EC2 compute instance" - so now choose "Launch Instance". You will be presented with several image options - choose one with "Ubuntu Server LTS" in the name.
 At the next screen you'll have options for the type - typically only "t2.micro" is eligible for the Free Tier, but this is fine, so select to "review and Launch"
 At the review screen there will be an option "Security Groups" - this is in fact a firewall configuration which AWS provides by default. While a good thing in general, for our purposes we want our server completely exposed, so we'll edit this to effectively disable it, like this:
 
