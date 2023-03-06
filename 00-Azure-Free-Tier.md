@@ -22,7 +22,7 @@ You will need to also provide your VISA or other credit card information.
 - Click 'start building in azure'
 - Click 'Deploy a virtual machine'
 - Click 'Create a linux virtual machine'
-- Search and select Ubuntu Server 20.04 LTS
+- Search and select Ubuntu Server LTS
 - Use the Standard _D2s_v3 size - this should be comfortably covered by your trial credits for the duration of the course
 - Ensure 'SSH Public Key' for authentication and 'generate new key pair' for SSH Public Key source are selected
 - Leave 'allow selected ports' as 'ssh (22)' for now
