@@ -1,7 +1,7 @@
 ---
 name: Correction request
 about: Point an error, typo, dead link in one of the daily lessons. For new features and suggestions, submit a distinct issue using the template Feature request. Submit a pull request if you can.
-title: Day X - corretion request
+title: Day X - correction request
 labels: ''
 assignees: ''
 
