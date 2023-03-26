@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://linuxupskillchallenge.org/"><img alt="" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Flinuxupskillchallenge.org%2F" /></a>
+  <a href="https://www.reddit.com/r/linuxupskillchallenge/"><img alt="Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/linuxupskillchallenge?logo=reddit&logoColor=white&style=for-the-badge" /></a>
+  <a href="https://discord.com/invite/wd4Zqyk"><img alt="Discord" src="https://img.shields.io/discord/682046666928685068?label=discord&logo=discord&logoColor=white&style=for-the-badge" /></a>
+</p>
+
 # Introduction to Linux Server Administration!
 
 This includes all the source material for the 20 lessons of what was previously a commercial online Linux server admin course - now free for you to learn with! (If you spot any typos or "dead links" simply raise a GitHub "issue").
