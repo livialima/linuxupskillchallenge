@@ -1,12 +1,15 @@
-<p align="center">
+<div align="center" width="100%">
+  <h1>Linux Upskill Challenge</h1>
+  <h3>An Introduction to Linux Server Administration!</h3>
   <a href="https://linuxupskillchallenge.org/"><img alt="" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Flinuxupskillchallenge.org%2F" /></a>
   <a href="https://www.reddit.com/r/linuxupskillchallenge/"><img alt="Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/linuxupskillchallenge?logo=reddit&logoColor=white&style=for-the-badge" /></a>
-  <a href="https://discord.com/invite/wd4Zqyk"><img alt="Discord" src="https://img.shields.io/discord/682046666928685068?label=discord&logo=discord&logoColor=white&style=for-the-badge" /></a>
-</p>
+  <a href="https://discord.com/invite/wd4Zqyk"><img alt="Discord" src="https://img.shields.io/discord/682046666928685068?label=discord&logo=discord&logoColor=white&style=for-the-badge" /></a></br>
+  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 164px !important;" ></a>
+</div>
 
-# Introduction to Linux Server Administration!
+This includes all the source material for the 20 lessons of what was previously a commercial online Linux server admin course - now free for you to learn with!
 
-This includes all the source material for the 20 lessons of what was previously a commercial online Linux server admin course - now free for you to learn with! (If you spot any typos or "dead links" simply raise a GitHub "issue").
+*If you spot any typos or "dead links" simply [raise an issue](https://github.com/livialima/linuxupskillchallenge/issues/new/choose).*
 
 * Website of the course: (<https://LinuxUpskillChallenge.org>)
 * Monthly "Linux Upskill Challenge": (<https://www.reddit.com/r/linuxupskillchallenge/>)
@@ -41,4 +44,7 @@ This includes all the source material for the 20 lessons of what was previously 
 * [Day 20](20.md) - **Scripting**: Understanding how scripting work in Linux, the shebang, permissions and $PATH. A couple of simple sample scripts based on the filtering of logs we've been doing. Resources to explore further.
 * [Day 21](21.md) - **What's next?**: Closing the course with some suggestions.
 
-*You are free to use this under the terms of the license, but copyright remains with the author, Steve Brorens.*
+*You are free to use this under the terms of the license, but feel free to donate or contribute to keep the challenge running:*
+<p>
+  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+</p>
