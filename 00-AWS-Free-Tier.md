@@ -1,19 +1,13 @@
 # Day 0 - Creating Your Own Server - with AWS Free Tier
 
-* [Complementary video](https://youtu.be/nj4ySNM-wcY)
+* [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
 * [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
 
 **READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## INTRO
 
-First, you need a server. You can't really learn about administering a remote Linux server without having one of your own - so today we're going get one - completely free!
-
-Through the magic of Linux and virtualization, it's now possible to get a small Internet server setup almost instantly - and at very low cost. Technically, what you'll be doing is creating and renting a VPS ("Virtual Private Server"). In a datacentre somewhere, a single physical server running Linux will be split into a dozen or more Virtual servers, using the KVM (Kernel-based Virtual Machine) feature that's been part of Linux since early 2007.
-
-In addition to a hosting provider, we also need to choose which "flavour" of Linux to install on our server. If you're new to Linux then the range of "distributions" available can be confusing - but the latest LTS ("Long Term Support") version of Ubuntu Server is a popular choice, and what you'll need for this course.
-
-These instructions will walk you through using Amazon's AWS "Free Tier" (<http://aws.amazon.com>) as your VPS hosting provider. They are rated highly, with a very simple and slick interface. Although we'll be using the Free Tier, be warned that you will need to provide valid credit card information. (Of course, if you have a strong reason to use another provider, then by all means do so, but be sure to choose Ubuntu Server LTS)
+[Refer to Day 0 - Creating Your Own Server in the Cloud](https://github.com/livialima/linuxupskillchallenge/blob/master/00-VPS-big.md) for more.
 
 ## AWS free-tier, is it always free?
 The AWS Free Tier is designed to allow new users to explore and test various AWS services without incurring any costs for 12 months following the AWS sign-up date, subject to certain usage limits. When your 12 month free usage term expires or if your application use exceeds the tiers, you simply pay standard, pay-as-you-go service rates. You can extend that free usage with an Educate Pack, if you are eligible.
