@@ -116,6 +116,8 @@ We want to follow the Best Practice of not logging as "root" remotely, so we'll 
 
 *This* will be the account that you use to login and work with your server. It has been added to the 'adm' and 'sudo' groups, which on an Ubuntu system gives it access to read various logs and to "become root" as required via the _sudo_ command.
 
+To login using your new user, [copy the SSH key from root](https://askubuntu.com/questions/1218023/copying-ssh-key-from-root-to-another-user-on-same-machine/1218026#1218026).
+
 ## You are now a sysadmin
 
 Confirm that you can do administrative tasks by typing:
