@@ -19,14 +19,21 @@ Sign-up is fairly simple - just provide your email address and a password of you
 
 ### Comparison
 
-| Provider      | Instance Type           | vCPU | Memory | Storage   | Price  | Trial Credits  | 
+| Provider      | Instance Type           | vCPU | Memory | Storage   | Price*  | Trial Credits  | 
 | ------------- | ----------------------- | ---- | ------ | --------- | ------ | -------------- | 
 | [AWS](https://aws.amazon.com/free/)           | t2.micro                | 1    | 1 GB   | 8 GB SSD  | $18.27 | Free Tier for 1 year |
 | [Azure](https://azure.microsoft.com/free/)         | B1                      | 1    | 1 GB   | 30 GB SSD | $12.26 | $200 / 30 days + Free Tier for 1 year |
 | [GCP](https://cloud.google.com/free/docs/free-cloud-features)           | e2-micro                | 1    | 1 GB   | 10 GB SSD | $ 7.11 | $300 / 90 days |
 | [Oracle](https://www.oracle.com/cloud/free/)        | VM.Standard.E2.1.Micro  | 1    | 1 GB   | 45 GB SSD | $19.92 | $300 / 30 days + Always Free services |
 
+* *Estimate prices*
+
 On a side note, avoid IBM Cloud as much as you can. They do not offer good deals and, according to some reports from previous students, their Linux VM is tampered enough to the point some commands do not work as expected.
+
+### Educational Packs
+
+* AWS Educate at https://aws.amazon.com/education/awseducate/
+* Azure for Students at https://azure.microsoft.com/en-gb/free/students/
 
 ## Create a Virtual Machine 
 
