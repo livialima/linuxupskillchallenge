@@ -7,11 +7,11 @@
 
 ## INTRO
 
-First, you need a server. You can't really learn about administering a remote Linux server without having a one of your own - so today we're going get one - completely free!
+First, you need a server. You can't really learn about administering a remote Linux server without having one of your own - so today we're going get one - completely free!
 
-Through the magic of Linux and virtualisation, it's now possible to get a small Internet server setup almost instantly - and at very low cost. Technically, what you'll be doing is creating and renting a VPS  ("Virtual Private Server"). In a datacentre somewhere a single physical server running Linux will be split into a dozen or more Virtual servers using the KVM (Kernel-based Virtual Machine) feature that's been part of Linux since early 2007.
+Through the magic of Linux and virtualisation, it's now possible to get a small Internet server setup almost instantly - and at very low cost. Technically, what you'll be doing is creating and renting a VPS  ("Virtual Private Server"). In a datacentre somewhere, a single physical server running Linux will be split into a dozen or more Virtual servers, using the KVM (Kernel-based Virtual Machine) feature that's been part of Linux since early 2007.
 
-As well as a hosting provider, we also need to choose which "flavour" of Linux to install on our server. If you're new to Linux then the range of "distributions" available can be confusing - but the latest LTS ("Long Term Support") version of Ubuntu Server is a popular choice, and what you'll need for this course.
+In addition to a hosting provider, we also need to choose which "flavour" of Linux to install on our server. If you're new to Linux then the range of "distributions" available can be confusing - but the latest LTS ("Long Term Support") version of Ubuntu Server is a popular choice, and what you'll need for this course.
 
 ## Signing up with a VPS
 
@@ -60,9 +60,9 @@ Select your instance and click "ssh" it will open a new window console. To acces
 
 ## Remote access via SSH
 
-You should see an "Public IPv4 address" entry for your server, this is its unique Internet IP address, and is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
+You should see a "Public IPv4 address" (or similar) entry for your server in account's control panel, this is its unique Internet IP address, and it is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
 
-If you are using windows download Putty and [follow the instructions to connect](https://blog.livialima.net/putty-basics).
+If you are using windows download Putty and [follow the instructions to connect](https://blog.livialima.net/putty-basics). Alternatively, in newer Windows versions (10/11), you can use a built-in SSH client via the CLI (e.g. cmd.exe), as described below.
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
@@ -70,7 +70,7 @@ If you are on Linux or MacOS, open a terminal and run the command:
 
 Or, using the SSH private key, `ssh -i private_key username@ip_address`
 
-Enter your password
+Enter your password (or a passphrase, if your SSH key is protected with one)
 
 Voila! You have just accessed your server remotely.
 
