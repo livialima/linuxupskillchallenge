@@ -82,13 +82,13 @@ We are going to access our server using SSH but, if for some reason you get stuc
 
 ## Remote access via SSH
 
-You should see an "Public IPv4 address" entry for your server, this is its unique Internet IP address, and is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
+You should see a "Public IPv4 address" (or similar) entry for your server in account's control panel, this is its unique Internet IP address, and it is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
 
 * **Digital Ocean**: Click on *Networking tab > Public Network > Public IPv4 Address*
 * **Linode**: Click on *Network tab > IP Addresses > IPv4 - Public*
 * **Vultr**: Click on *Settings tab > Public Network > Address*
 
-If you are using windows download Putty and [follow the instructions to connect](https://blog.livialima.net/putty-basics).
+If you are using Windows, download Putty and [follow the instructions to connect](https://blog.livialima.net/putty-basics). Alternatively, in newer Windows versions (10/11), you can use a built-in SSH client via the CLI (e.g. cmd.exe), as described below.
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
@@ -96,11 +96,11 @@ If you are on Linux or MacOS, open a terminal and run the command:
 
 Or, using the SSH private key, `ssh -i private_key username@ip_address`
 
-Enter your password
+Enter your password (or a passphrase, if your SSH key is protected with one)
 
 Voila! You have just accessed your server remotely.
 
-In doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
+If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
 
 ## Creating a working admin account
 
@@ -108,7 +108,7 @@ We want to follow the Best Practice of not logging as "root" remotely, so we'll 
 
 `adduser snori74`
 
-`usermod -a -G adm snori74`
+`usermod -a -G admin snori74`
 
 `usermod -a -G sudo snori74`
 
@@ -122,11 +122,11 @@ To login using your new user, [copy the SSH key from root](https://askubuntu.com
 
 Confirm that you can do administrative tasks by typing:
 
-`apt update`
+`sudo apt update`
 
 Then:
 
-`apt upgrade -y`
+`sudo apt upgrade -y`
 
 Don't worry too much about the output and messages from these commands, but it should be clear whether they succeeded or not. (Reply to any prompts by taking the default option). These commands are how you force the installation of updates on an Ubuntu Linux system, and only an administrator can do them.
 
@@ -134,7 +134,7 @@ Don't worry too much about the output and messages from these commands, but it s
 
 When a kernel update is identified in this first check for updates, this is one of the few occasions you will need to reboot your server, so go for it after the update is done:
 
-`reboot now`
+`sudo reboot now`
 
 Your server is now all set up and ready for the course!
 
