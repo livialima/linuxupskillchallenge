@@ -39,9 +39,9 @@ On a side note, avoid IBM Cloud as much as you can. They do not offer good deals
 
 The process is basically the same for all these VPS, but here some step-by-steps:
 
-* [VM with AWS](https://github.com/livialima/linuxupskillchallenge/blob/master/00-AWS-Free-Tier.md)
-* [VM with Azure](https://github.com/livialima/linuxupskillchallenge/blob/master/00-Azure-Free-Tier.md)
-* [VM with GCP](https://github.com/livialima/linuxupskillchallenge/blob/master/00-Google-Cloud.md)
+* [VM with AWS](https://github.com/livialima/linuxupskillchallenge/blob/master/lessons/00-AWS-Free-Tier.md)
+* [VM with Azure](https://github.com/livialima/linuxupskillchallenge/blob/master/lessons/00-Azure-Free-Tier.md)
+* [VM with GCP](https://github.com/livialima/linuxupskillchallenge/blob/master/lessons/00-Google-Cloud.md)
 
 ### VM with Oracle Cloud
 
