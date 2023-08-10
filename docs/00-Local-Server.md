@@ -116,6 +116,7 @@ When a kernel update is identified in this first check for updates, this is one 
 Your server is now all set up and ready for the course!
 
 Note that:
+
 * This server is now running but is not exposed to the Internet, i.e. other people will not be able to attempt to connect. We recommend you keep it that way. It is one thing to expose a server in the cloud, exposing your home network is another story. For your own security, don't do it.
 
 To logout, type `logout` or `exit`.

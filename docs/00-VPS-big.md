@@ -39,9 +39,9 @@ On a side note, avoid IBM Cloud as much as you can. They do not offer good deals
 
 The process is basically the same for all these VPS, but here some step-by-steps:
 
-* [VM with AWS](https://github.com/livialima/linuxupskillchallenge/blob/master/lessons/00-AWS-Free-Tier.md)
-* [VM with Azure](https://github.com/livialima/linuxupskillchallenge/blob/master/lessons/00-Azure-Free-Tier.md)
-* [VM with GCP](https://github.com/livialima/linuxupskillchallenge/blob/master/lessons/00-Google-Cloud.md)
+* [VM with AWS](https://github.com/livialima/linuxupskillchallenge/blob/master/docs/00-AWS-Free-Tier.md)
+* [VM with Azure](https://github.com/livialima/linuxupskillchallenge/blob/master/docs/00-Azure-Free-Tier.md)
+* [VM with GCP](https://github.com/livialima/linuxupskillchallenge/blob/master/docs/00-Google-Cloud.md)
 
 ### VM with Oracle Cloud
 
@@ -103,6 +103,7 @@ When a kernel update is identified in this first check for updates, this is one 
 Your server is now all set up and ready for the course!
 
 Note that:
+
 * This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now

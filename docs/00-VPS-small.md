@@ -139,6 +139,7 @@ When a kernel update is identified in this first check for updates, this is one 
 Your server is now all set up and ready for the course!
 
 Note that:
+
 * This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now
