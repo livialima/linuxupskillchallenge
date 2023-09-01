@@ -65,11 +65,11 @@ Of course, you’re perfectly entitled to use a local VM, a Raspberry Pi or even
 
 ### But what if I don't have a credit card (or don't want to use one) to setup an AWS/Azure/GCP server?
 
-Please read [Day 0 - Creating Your Own Local Server](https://linuxupskillchallenge.org/00-Local-Server.md). There are other options of cloud providers and different payment options. But if none of them works for you, try creating your own local VM.
+Please read [Day 0 - Creating Your Own Local Server](https://linuxupskillchallenge.org/00-Local-Server). There are other options of cloud providers and different payment options. But if none of them works for you, try creating your own local VM.
 
 ### But what if I don’t want to use a cloud provider? I have a server/VM at home.
 
-Then use your server. Check the post [Day 0 - Creating Your Own Local Server](https://linuxupskillchallenge.org/00-Local-Server.md)
+Then use your server. Check the post [Day 0 - Creating Your Own Local Server](https://linuxupskillchallenge.org/00-Local-Server)
 
 ### Why Ubuntu, can I use another distro?
 
