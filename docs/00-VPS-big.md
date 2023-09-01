@@ -1,9 +1,6 @@
 # Day 0 - Creating Your Own Server in the Cloud
 
 * [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
-* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
-
-**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## INTRO
 
@@ -32,16 +29,16 @@ On a side note, avoid IBM Cloud as much as you can. They do not offer good deals
 
 ### Educational Packs
 
-* AWS Educate at https://aws.amazon.com/education/awseducate/
-* Azure for Students at https://azure.microsoft.com/en-gb/free/students/
+* AWS Educate at [https://aws.amazon.com/education/awseducate/](https://aws.amazon.com/education/awseducate/)
+* Azure for Students at [https://azure.microsoft.com/en-gb/free/students/](https://azure.microsoft.com/en-gb/free/students/)
 
 ## Create a Virtual Machine 
 
 The process is basically the same for all these VPS, but here some step-by-steps:
 
-* [VM with AWS](https://github.com/livialima/linuxupskillchallenge/blob/master/docs/00-AWS-Free-Tier.md)
-* [VM with Azure](https://github.com/livialima/linuxupskillchallenge/blob/master/docs/00-Azure-Free-Tier.md)
-* [VM with GCP](https://github.com/livialima/linuxupskillchallenge/blob/master/docs/00-Google-Cloud.md)
+* [VM with AWS](https://linuxupskillchallenge.org/00-AWS-Free-Tier.md)
+* [VM with Azure](https://linuxupskillchallenge.org/00-Azure-Free-Tier.md)
+* [VM with GCP](https://linuxupskillchallenge.org/00-Google-Cloud.md)
 
 ### VM with Oracle Cloud
 
@@ -62,7 +59,7 @@ Select your instance and click "ssh" it will open a new window console. To acces
 
 You should see a "Public IPv4 address" (or similar) entry for your server in account's control panel, this is its unique Internet IP address, and it is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
 
-If you are using windows download Putty and [follow the instructions to connect](https://blog.livialima.net/putty-basics). Alternatively, in newer Windows versions (10/11), you can use a built-in SSH client via the CLI (e.g. cmd.exe), as described below.
+If you are using Windows 10 or 11, follow the instructions to [connect using the native SSH client](https://youtu.be/Z46YbczqbiE). In older versions of Windows, you may need to install a 3rd party SSH client, like [PuTTY](https://youtu.be/pWDHUlvcAsg) and generate a [ssh key-pair](https://youtu.be/4jakCV5JYx0).
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
@@ -74,7 +71,7 @@ Enter your password (or a passphrase, if your SSH key is protected with one)
 
 Voila! You have just accessed your server remotely.
 
-In doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
+If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ) that covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
 
 ### What about the *root* user?
 

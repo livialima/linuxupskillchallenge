@@ -1,13 +1,10 @@
 # Day 0 - Creating Your Own Server - with Google Cloud Platform Free Tier
 
 * [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
-* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
-
-**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## INTRO
 
-[Refer to Day 0 - Creating Your Own Server in the Cloud](https://github.com/livialima/linuxupskillchallenge/blob/master/00-VPS-big.md) for more.
+[Refer to Day 0 - Creating Your Own Server in the Cloud](00-VPS-big.md) for more.
 
 ## Signing up with GCP
 

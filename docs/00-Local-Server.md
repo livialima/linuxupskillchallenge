@@ -1,9 +1,6 @@
 # Day 0 - Creating Your Own Local Server
 
 * [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
-* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
-
-**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## It's difficult to create a server in cloud without a credit card
 
@@ -35,9 +32,10 @@ Go to the Official [Ubuntu](https://ubuntu.com/download/server) page and downloa
 
 ## Create a Virtual Machine with VirtualBox
 
-* [Create a local Linux server with VirtualBox](https://youtu.be/nKcfhI1B4mA)
+* [Create a local Linux server with VirtualBox (video)](https://youtu.be/nKcfhI1B4mA)
 
 Install [VirtualBox](https://www.virtualbox.org/), when ready:
+
 * Click on *Machine > New*
 * Give a name to your VM and select the *Type* Linux. Click *Next*.
 * Adjust hardware: 1024MB memory and 1 CPU (this is the minimum, but you can reserve more if your host machine can provide it). Click *Next*
@@ -46,7 +44,7 @@ Install [VirtualBox](https://www.virtualbox.org/), when ready:
 * The new VM should show up in a list of VMs, select it.
 * Click on *Machine > Settings*
 * Click on *Storage*. Right-click on Controllet IDE, click on *Optical Drive*.
-* Select the ISO from the list if available, if not click *Add* and find it in your directories. Click *Choose*.
+* Select the Linux ISO you downloaded from the list if available, if not click *Add* and find it in your directories. Click *Choose*.
 * Click on *Network* and change the network adapter to **Bridged Adapter**.
 * Click *OK*
 * Click **Start** or *Machine > Start > Normal Start*.
@@ -81,19 +79,23 @@ If you need to find out the IP address for the VM, just type in the console:
 
 `ip address`
 
-That will give you the `inet`, i.e., the ip address.
+That will give you the `inet`, i.e., the ip address. You will need that to connect with SSH.
 
 ## Remote access via SSH
 
-If you are using windows download Putty and [follow the instructions to connect](https://blog.livialima.net/putty-basics).
+If you are using Windows 10 or 11, follow the instructions to [connect using the native SSH client](https://youtu.be/Z46YbczqbiE). In older versions of Windows, you may need to install a 3rd party SSH client, like [PuTTY](https://youtu.be/pWDHUlvcAsg) and generate a [ssh key-pair](https://youtu.be/4jakCV5JYx0).
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
 `ssh username@ip_address`
 
-Enter your password
+Or, using the SSH private key, `ssh -i private_key username@ip_address`
 
-Voila! You have just accessed your system inside your private network.
+Enter your password (or a passphrase, if your SSH key is protected with one)
+
+Voila! You have just accessed your server remotely.
+
+If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ) that covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
 
 ## You are now a sysadmin
 

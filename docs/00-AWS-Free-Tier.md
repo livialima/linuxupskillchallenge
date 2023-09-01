@@ -1,13 +1,10 @@
 # Day 0 - Creating Your Own Server - with AWS Free Tier
 
 * [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
-* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
-
-**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## INTRO
 
-[Refer to Day 0 - Creating Your Own Server in the Cloud](https://github.com/livialima/linuxupskillchallenge/blob/master/00-VPS-big.md) for more.
+[Refer to Day 0 - Creating Your Own Server in the Cloud](00-VPS-big.md) for more.
 
 ## AWS free-tier, is it always free?
 The AWS Free Tier is designed to allow new users to explore and test various AWS services without incurring any costs for 12 months following the AWS sign-up date, subject to certain usage limits. When your 12 month free usage term expires or if your application use exceeds the tiers, you simply pay standard, pay-as-you-go service rates. You can extend that free usage with an Educate Pack, if you are eligible.
@@ -54,7 +51,7 @@ Your server instance should now launch, and you can login to it by:
 
 You should see an "IPv4" entry for your server, this is its unique Internet IP address, and is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
 
-This video, "How to Set Up AWS EC2 and Connect to Linux Instance with PuTTY" (<https://www.youtube.com/watch?v=kARWT4ETcCs>), gives a good overview of the process.
+This video, [How to Set Up AWS EC2 and Connect to Linux Instance with PuTTY](https://www.youtube.com/watch?v=kARWT4ETcCs), gives a good overview of the process.
 
 You will be logging in as the user *ubuntu*. It has been added to the 'adm' and 'sudo' groups, which on an Ubuntu system gives it access to read various logs - and to "become root" as required via the _sudo_ command.
 

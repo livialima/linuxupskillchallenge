@@ -1,0 +1,166 @@
+# Project information
+site_name: Linux Upskill Challenge
+site_url: https://linuxupskillchallenge.org/
+site_author: Livia Lima
+site_description: >-
+  A month-long course aimed at those who aspire to get Linux-related jobs in the industry - junior Linux sysadmin, DevOps-related work, and similar.
+  Learn the skills required to sysadmin a remote Linux server from the commandline.
+
+# Repository
+repo_name: livialima/linuxupskillchallenge
+repo_url: https://github.com/livialima/linuxupskillchallenge
+edit_uri: blob/master/docs
+
+# Copyright
+copyright: Copyright &copy; 2012-2020 @snori74 (Steve Brorens) - Open Source since 2020 under the terms of the Creative Commons Attribution 4.0 International Licence (CC BY 4.0).
+
+# Extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - codehilite
+  - def_list
+  - footnotes
+  - md_in_html
+  - sane_lists
+  - smarty
+  - toc:
+      toc_depth: 4
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Configuration
+theme:
+  name: material
+  #custom_dir: material/.overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  favicon: luc.png
+  logo: luc.png
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Customization
+extra:
+  annotate:
+    json: [.s2]
+  analytics:
+    provider: google
+    property: !ENV G-LKF1067ZTR
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/linux-upskill-challenge-682046666928685068
+      name: discord chat
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@livia2lima/search?query=linux%20upskill%20challenge
+      name: complimentary videos
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/livialima/
+      name: livialima @linkedin
+    - icon: fontawesome/brands/github
+      link: https://github.com/livialima
+      name: livialima @github
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@livialima
+      name: livialima @fosstodon
+
+# Page tree
+nav:
+  - Home: 
+    - index.md
+    - Start Here: 
+      - How this works: how-this-works.md
+      - Creating Your Own Server: 
+        - In the Cloud (overview): 00-VPS-big.md
+        - with AWS: 00-AWS-Free-Tier.md
+        - with Azure: 00-Azure-Free-Tier.md
+        - with Google Cloud: 00-Google-Cloud.md
+        - In the Cloud (but cheaper): 00-VPS-small.md
+        - In a Local Server: 00-Local-Server.md
+    - Lessons:
+      - Day 1 - Get to know your server: 01.md
+      - Day 2 - Basic navigation: 02.md
+      - Day 3 - Power trip!: 03.md
+      - Day 4 - Installing software, exploring the file structure: 04.md
+      - Day 5 - More or less: 05.md
+      - Day 6 - Editing with "vim": 06.md
+      - Day 7 - The server and its services: 07.md
+      - Day 8 - The infamous "grep" and other text processors: 08.md
+      - Day 9 - Diving into networking: 09.md
+      - Day 10 - Getting the computer to do your work for you: 10.md
+      - Day 11 - Finding things: 11.md
+      - Day 12 - Transferring files: 12.md
+      - Day 13 - Who has permission?: 13.md
+      - Day 14 - Users and Groups: 14.md
+      - Day 15 - Deeper into repositories: 15.md
+      - Day 16 - Archiving and compressing: 16.md
+      - Day 17 - Build from the source: 17.md
+      - Day 18 - Log rotation: 18.md
+      - Day 19 - Inodes, symlinks and other shortcuts: 19.md
+      - Day 20 - Scripting: 20.md
+    - What Now?:
+      - Day 21 - What's next?: 21.md

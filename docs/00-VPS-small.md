@@ -1,9 +1,6 @@
 # Day 0 - Creating Your Own Server in the Cloud (but cheaper)
 
 * [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
-* [Previous "Day 0" threads](https://www.reddit.com/r/linuxupskillchallenge/search/?q=Day%200&restrict_sr=1)
-
-**READ THIS FIRST!** [HOW THIS WORKS & FAQ](https://www.reddit.com/r/linuxupskillchallenge/comments/qeymzb/please_read_this_first_how_this_works_faq/)
 
 ## INTRO
 
@@ -25,6 +22,7 @@ Sign-up is immediate - just provide your email address and a password of your ch
 | [Vultr](https://www.vultr.com/vultr-vs-linode/?promo=LINODE150)         | Cloud Compute - Regular | 1    | 1 GB   | 25 GB SSD | $5.00 | $250 / 30 days |
 
 For more details:
+
 * [Get started with Digital Ocean](https://docs.digitalocean.com/products/getting-started/)
 * [Get started with Linode](https://www.linode.com/docs/products/platform/get-started/)
 
@@ -88,7 +86,7 @@ You should see a "Public IPv4 address" (or similar) entry for your server in acc
 * **Linode**: Click on *Network tab > IP Addresses > IPv4 - Public*
 * **Vultr**: Click on *Settings tab > Public Network > Address*
 
-If you are using Windows, download Putty and [follow the instructions to connect](https://blog.livialima.net/putty-basics). Alternatively, in newer Windows versions (10/11), you can use a built-in SSH client via the CLI (e.g. cmd.exe), as described below.
+If you are using Windows 10 or 11, follow the instructions to [connect using the native SSH client](https://youtu.be/Z46YbczqbiE). In older versions of Windows, you may need to install a 3rd party SSH client, like [PuTTY](https://youtu.be/pWDHUlvcAsg) and generate a [ssh key-pair](https://youtu.be/4jakCV5JYx0).
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
@@ -100,7 +98,7 @@ Enter your password (or a passphrase, if your SSH key is protected with one)
 
 Voila! You have just accessed your server remotely.
 
-If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
+If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ) that covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
 
 ## Creating a working admin account
 

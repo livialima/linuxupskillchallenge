@@ -11,10 +11,12 @@ This includes all the source material for the 20 lessons of what was previously 
 
 *If you spot any typos or "dead links" simply [raise an issue](https://github.com/livialima/linuxupskillchallenge/issues/new/choose).*
 
-* Website of the course: (<https://LinuxUpskillChallenge.org>)
-* Monthly "Linux Upskill Challenge": (<https://www.reddit.com/r/linuxupskillchallenge/>)
-* Lesson "source": (<https://github.com/livialima/linuxupskillchallenge>)
-* Chat at: (<https://discordapp.com/invite/wd4Zqyk>)
+* [Website of the course](https://LinuxUpskillChallenge.org)
+* [Full lesson source](https://github.com/livialima/linuxupskillchallenge)
+* [Complementary video playlists](https://www.youtube.com/@livia2lima/search?query=linuxupskillchallenge)
+* [Monthly lessons on Lemmy](https://programming.dev/c/linuxupskillchallenge)
+* [Monthly lessons on Reddit](https://www.reddit.com/r/linuxupskillchallenge/)
+* [Chat with Discord](https://discord.gg/linux-upskill-challenge-682046666928685068)
 
 ## READ THIS FIRST!
 [HOW THIS WORKS & FAQ](docs/how-this-works.md)
