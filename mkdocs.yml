@@ -110,7 +110,7 @@ extra:
     json: [.s2]
   analytics:
     provider: google
-    property: !ENV G-LKF1067ZTR
+    property: G-LKF1067ZTR
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/linux-upskill-challenge-682046666928685068
