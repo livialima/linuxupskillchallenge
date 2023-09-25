@@ -61,7 +61,7 @@ Yes, if you’re in the target audience (see above) you definitely should. The f
 
 Instructions for setting up a suitable server with a couple of providers are in the "Day 0" lessons. By all means use a different provider, but ensure you use Ubuntu LTS (preferably the latest version) and either use public key authentication or a Long, Strong, Unique password (we also have instructions on how to do that).
 
-Of course, you’re perfectly entitled to use a local VM, a Raspberry Pi or even just WLS instead – and all of these will work fine for the course material. Just keep in mind what you are missing.
+Of course, you’re perfectly entitled to use a local VM, a Raspberry Pi or even just WSL instead – and all of these will work fine for the course material. Just keep in mind what you are missing.
 
 ### But what if I don't have a credit card (or don't want to use one) to setup an AWS/Azure/GCP server?
 
