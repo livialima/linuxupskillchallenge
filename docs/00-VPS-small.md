@@ -17,14 +17,15 @@ Sign-up is immediate - just provide your email address and a password of your ch
 ### Comparison
 | Provider      | Instance Type           | vCPU | Memory | Storage   | Price | Trial Credits  | 
 | ------------- | ----------------------- | ---- | ------ | --------- | ----- | -------------- | 
-| [Digital Ocean](https://www.digitalocean.com/try/developer-brand) | Basic Plan              | 1    | 1 GB   | 25 GB SSD | $6.00 | $200 / 60 days | 
-| [Linode](https://www.linode.com/lp/free-credit-short/)        | Nanode 1GB              | 1    | 1 GB   | 25 GB SSD | $5.00 | $100 / 60 days | 
+| [Digital Ocean](https://m.do.co/c/0543704a0b92) | Basic Plan              | 1    | 1 GB   | 25 GB SSD | $6.00 | $200 / 60 days | 
+| [Linode](https://www.linode.com/lp/refer/?r=5f3727944be972fe99747977e0a25fc21390c5d0)        | Nanode 1GB              | 1    | 1 GB   | 25 GB SSD | $5.00 | $100 / 60 days | 
 | [Vultr](https://www.vultr.com/vultr-vs-linode/?promo=LINODE150)         | Cloud Compute - Regular | 1    | 1 GB   | 25 GB SSD | $5.00 | $250 / 30 days |
 
 For more details:
 
 * [Get started with Digital Ocean](https://docs.digitalocean.com/products/getting-started/)
 * [Get started with Linode](https://www.linode.com/docs/products/platform/get-started/)
+* [Get started with Vultr](https://www.vultr.com/resources/faq/)
 
 ## Create a Virtual Machine 
 
@@ -67,7 +68,7 @@ The process is basically the same for all these VPS, but here some step-by-steps
 * **SSH Keys**: click "Add New" and [add a new public key that you created locally](https://www.vultr.com/docs/deploy-a-new-server-with-an-ssh-key/)
 * *Note that since that there's no option to just authenticate with root password, you will need to create a SSH key.*
 * **Server Hostname & Label**: Choose a hostname for your server.
-* **Disable** "Auto Backups" and "IPv6". They will not be required for the challenge and are only adding to the bill.
+* **Disable** "Auto Backups". They will not be required for the challenge and are only adding to the bill.
 * Deploy Now
 
 ## Logging in for the first time with console

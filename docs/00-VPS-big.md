@@ -31,6 +31,8 @@ On a side note, avoid IBM Cloud as much as you can. They do not offer good deals
 
 * AWS Educate at [https://aws.amazon.com/education/awseducate/](https://aws.amazon.com/education/awseducate/)
 * Azure for Students at [https://azure.microsoft.com/en-gb/free/students/](https://azure.microsoft.com/en-gb/free/students/)
+* Google Cloud for Students at [https://cloud.google.com/edu/students](https://cloud.google.com/edu/students)
+* Oracle Academy Cloud Program at [https://academy.oracle.com/en/solutions-cloud-program.html](https://academy.oracle.com/en/solutions-cloud-program.html)
 
 ## Create a Virtual Machine 
 
