@@ -1,9 +1,15 @@
 <div align="center" width="100%">
   <h1>Linux Upskill Challenge</h1>
-  <h3>An Introduction to Linux Server Administration!</h3>
-  <a href="https://linuxupskillchallenge.org/"><img alt="" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Flinuxupskillchallenge.org%2F" /></a>
-  <a href="https://www.reddit.com/r/linuxupskillchallenge/"><img alt="Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/linuxupskillchallenge?logo=reddit&logoColor=white&style=for-the-badge" /></a>
-  <a href="https://discord.com/invite/wd4Zqyk"><img alt="Discord" src="https://img.shields.io/discord/682046666928685068?label=discord&logo=discord&logoColor=white&style=for-the-badge" /></a></br>
+  <h3>An Introduction to Linux Server Administration</h3>
+  <a href="https://linuxupskillchallenge.org/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Flinuxupskillchallenge.org&style=for-the-badge&label=LinuxUpskillChallenge.org"></a>
+  <a href="https://programming.dev/c/linuxupskillchallenge"><img alt="Lemmy subscribers" src="https://img.shields.io/lemmy/linuxupskillchallenge%40programming.dev?style=for-the-badge&logo=lemmy&logoColor=white&label=lemmy"></a>
+  <a href="https://www.reddit.com/r/linuxupskillchallenge/"><img alt="Subreddit subscribers" src="https://img.shields.io/reddit/subreddit-subscribers/linuxupskillchallenge?style=for-the-badge&logo=reddit&logoColor=white&label=reddit"></a>
+  <a href="https://discord.gg/linux-upskill-challenge-682046666928685068"><img alt="Discord" src="https://img.shields.io/discord/682046666928685068?label=discord&logo=discord&logoColor=white&style=for-the-badge" /></a></br>
+  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/livialima/linuxupskillchallenge/master?style=for-the-badge&logo=github&logoColor=white">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/livialima/linuxupskillchallenge?style=for-the-badge">
+  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/livialima/linuxupskillchallenge?style=for-the-badge">
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/livialima/linuxupskillchallenge?style=for-the-badge">
+  <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=github&logoColor=white"></a></br>
   <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 164px !important;" ></a>
 </div>
 
@@ -48,5 +54,6 @@ This includes all the source material for the 20 lessons of what was previously 
 
 *You are free to use this under the terms of the license, but feel free to donate or contribute to keep the challenge running:*
 <p>
-  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 114px !important;" ></a>
+  <iframe src="https://github.com/sponsors/livialima/button" title="Sponsor livialima" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 </p>
