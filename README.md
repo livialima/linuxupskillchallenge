@@ -42,8 +42,8 @@ This includes all the source material for the 20 lessons of what was previously 
 * [Day 10](docs/10.md) - **Getting the computer to do your work for you**: Covering `cron`, `at`, and systemd timers
 * [Day 11](docs/11.md) - **Finding things...**: Finding things with: `locate`, `find`, `grep`, `which`
 * [Day 12](docs/12.md) - **Transferring files**: SFTP, the technology, clients, and copying up and down
-* [Day 13](docs/13.md) - **Who has permission?**: Permissions, users, groups, (ACLS and SELinux in the Extension)
-* [Day 14](docs/14.md) - **Users and Groups**: Using `adduser`, `visudo` to setup up a restricted "helper" to manage our host
+* [Day 13](docs/13.md) - **Users and Groups**: Using `adduser`, `visudo` to setup up a restricted "helper" to manage our host
+* [Day 14](docs/14.md) - **Who has permission?**: Permissions, users, groups, (ACLS and SELinux in the Extension)
 * [Day 15](docs/15.md) - **Deeper into repositories...**: Repositories in more detail, how to enable "Multiverse", the role of PPAs in Ubuntu, enabling and installing from them
 * [Day 16](docs/16.md) - **Archiving and compressing**: Understanding and using `tar` and `gzip`
 * [Day 17](docs/17.md) - **Build from the source**: Installing from source. Discussion, using `wget` to get a tarball, `tar` to extract and then configure, make and install. Discussion of security, maintenance issues.

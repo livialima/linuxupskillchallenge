@@ -38,8 +38,8 @@ The course restarts on the first Monday of each month so don't worry if you can'
 * [Day 10](10.md) - **Getting the computer to do your work for you**: Covering `cron`, `at`, and systemd timers
 * [Day 11](11.md) - **Finding things...**: Finding things with: `locate`, `find`, `grep`, `which`
 * [Day 12](12.md) - **Transferring files**: SFTP, the technology, clients, and copying up and down
-* [Day 13](13.md) - **Who has permission?**: Permissions, users, groups, (ACLS and SELinux in the Extension)
-* [Day 14](14.md) - **Users and Groups**: Using `adduser`, `visudo` to setup up a restricted "helper" to manage our host
+* [Day 13](13.md) - **Users and Groups**: Using `adduser`, `visudo` to setup up a restricted "helper" to manage our host
+* [Day 14](14.md) - **Who has permission?**: Permissions, users, groups, (ACLS and SELinux in the Extension)
 * [Day 15](15.md) - **Deeper into repositories...**: Repositories in more detail, how to enable "Multiverse", the role of PPAs in Ubuntu, enabling and installing from them
 * [Day 16](16.md) - **Archiving and compressing**: Understanding and using `tar` and `gzip`
 * [Day 17](17.md) - **Build from the source**: Installing from source. Discussion, using `wget` to get a tarball, `tar` to extract and then configure, make and install. Discussion of security, maintenance issues.
