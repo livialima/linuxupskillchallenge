@@ -3,11 +3,11 @@ comments: true
 ---
 # Day 0 - Creating Your Own Server in the Cloud (but cheaper)
 
-Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00.md) to review your options:
+Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to review your options:
 
-* [In a Local Server](https://linuxupskillchallenge.org/00-Local-Server.md)
-* [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small.md)
-* [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big.md)
+* [In a Local Server](https://linuxupskillchallenge.org/00-Local-Server)
+* [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small)
+* [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big)
 
 ## Signing up with a VPS
 
@@ -150,4 +150,4 @@ You should be safe running the VM during the month for the challenge, but you ca
 
 When you no longer need the VM, **Terminate/Destroy** instance.
 
-**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01.md), here we go!**
+**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), here we go!**
