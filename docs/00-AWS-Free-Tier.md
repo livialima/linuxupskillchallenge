@@ -1,10 +1,13 @@
+---
+comments: true
+---
 # Day 0 - Creating Your Own Server - with AWS Free Tier
 
-* [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
+Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00.md) to review your options:
 
-## INTRO
-
-[Refer to Day 0 - Creating Your Own Server in the Cloud](00-VPS-big.md) for more.
+* [In a Local Server](https://linuxupskillchallenge.org/00-Local-Server.md)
+* [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small.md)
+* [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big.md)
 
 ## AWS free-tier, is it always free?
 The AWS Free Tier is designed to allow new users to explore and test various AWS services without incurring any costs for 12 months following the AWS sign-up date, subject to certain usage limits. When your 12 month free usage term expires or if your application use exceeds the tiers, you simply pay standard, pay-as-you-go service rates. You can extend that free usage with an Educate Pack, if you are eligible.
@@ -78,3 +81,5 @@ Note that:
 * This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now
+
+**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01.md), here we go!**

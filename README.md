@@ -29,7 +29,7 @@ This includes all the source material for the 20 lessons of what was previously 
 
 ## Table of Contents
 
-* [Day 0](docs/00-AWS-Free-Tier.md) - **Creating Your Own Server**: how to setup your lab in [AWS](docs/00-AWS-Free-Tier.md), [Azure](docs/00-Azure-Free-Tier.md), [Google Cloud](docs/00-Google-Cloud.md), [Digital Ocean](docs/00-VPS-small.md) and [on a local server](docs/00-Local-Server.md)
+* [Day 0](docs/00.md) - **Creating Your Own Server**: how to setup your lab in AWS, Azure, Google Cloud, Digital Ocean and on a local server
 * [Day 1](docs/01.md) - **Get to know your server**: Starting with `ssh`-ing in and some simple commands like: `ls`, `uptime`, `free`, `df -h`, `uname -a`. Extensions on doing passwordless login with public keys and and an `ssh` config file.
 * [Day 2](docs/02.md) - **Basic navigation**: Basic navigation, the "man" pages, file hierarchy
 * [Day 3](docs/03.md) - **Power trip!**: Working with `sudo`, `uptime`, `timezones`, changing your hostname
@@ -47,7 +47,7 @@ This includes all the source material for the 20 lessons of what was previously 
 * [Day 15](docs/15.md) - **Deeper into repositories...**: Repositories in more detail, how to enable "Multiverse", the role of PPAs in Ubuntu, enabling and installing from them
 * [Day 16](docs/16.md) - **Archiving and compressing**: Understanding and using `tar` and `gzip`
 * [Day 17](docs/17.md) - **Build from the source**: Installing from source. Discussion, using `wget` to get a tarball, `tar` to extract and then configure, make and install. Discussion of security, maintenance issues.
-* [Day 18](docs/18.md) - **Log rotation**: Log management and rotation, `logrotate`
+* [Day 18](docs/18.md) - **Logs, monitoring and troubleshooting**: Log management and rotation, `logrotate`
 * [Day 19](docs/19.md) - **Inodes, symlinks and other shortcuts**: Inodes, hard links symlinks and `stat`
 * [Day 20](docs/20.md) - **Scripting**: Understanding how scripting work in Linux, the shebang, permissions and $PATH. A couple of simple sample scripts based on the filtering of logs we've been doing. Resources to explore further.
 * [Day 21](docs/21.md) - **What's next?**: Closing the course with some suggestions.

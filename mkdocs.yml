@@ -54,7 +54,7 @@ markdown_extensions:
 # Configuration
 theme:
   name: material
-  #custom_dir: material/.overrides
+  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -134,13 +134,7 @@ nav:
     - index.md
     - Start Here: 
       - How this works: how-this-works.md
-      - Creating Your Own Server: 
-        - In the Cloud (overview): 00-VPS-big.md
-        - with AWS: 00-AWS-Free-Tier.md
-        - with Azure: 00-Azure-Free-Tier.md
-        - with Google Cloud: 00-Google-Cloud.md
-        - In the Cloud (but cheaper): 00-VPS-small.md
-        - In a Local Server: 00-Local-Server.md
+      - Get Your Own Server: 00.md
     - Lessons:
       - Day 1 - Get to know your server: 01.md
       - Day 2 - Basic navigation: 02.md

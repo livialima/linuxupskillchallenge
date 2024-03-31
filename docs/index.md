@@ -25,7 +25,7 @@ The course restarts on the first Monday of each month so don't worry if you can'
 
 ## Table of Contents
 
-* [Day 0](00-VPS-big.md) - **Creating Your Own Server**: how to setup your lab in AWS, Azure, Google Cloud, Oracle Cloud, Digital Ocean, Linode, Vultr and on a local server too!
+* [Day 0](00.md) - **Creating Your Own Server**: how to setup your lab in AWS, Azure, Google Cloud, Oracle Cloud, Digital Ocean, Linode, Vultr and on a local server too!
 * [Day 1](01.md) - **Get to know your server**: Starting with `ssh`-ing in and some simple commands like: `ls`, `uptime`, `free`, `df -h`, `uname -a`. Extensions on doing passwordless login with public keys and and an `ssh` config file.
 * [Day 2](02.md) - **Basic navigation**: Basic navigation, the "man" pages, file hierarchy
 * [Day 3](03.md) - **Power trip!**: Working with `sudo`, `uptime`, `timezones`, changing your hostname
@@ -43,7 +43,7 @@ The course restarts on the first Monday of each month so don't worry if you can'
 * [Day 15](15.md) - **Deeper into repositories...**: Repositories in more detail, how to enable "Multiverse", the role of PPAs in Ubuntu, enabling and installing from them
 * [Day 16](16.md) - **Archiving and compressing**: Understanding and using `tar` and `gzip`
 * [Day 17](17.md) - **Build from the source**: Installing from source. Discussion, using `wget` to get a tarball, `tar` to extract and then configure, make and install. Discussion of security, maintenance issues.
-* [Day 18](18.md) - **Log rotation**: Log management and rotation, `logrotate`
+* [Day 18](18.md) - **Logs, monitoring and troubleshooting**: Log management and rotation, `logrotate`
 * [Day 19](19.md) - **Inodes, symlinks and other shortcuts**: Inodes, hard links symlinks and `stat`
 * [Day 20](20.md) - **Scripting**: Understanding how scripting work in Linux, the shebang, permissions and $PATH. A couple of simple sample scripts based on the filtering of logs we've been doing. Resources to explore further.
 * [Day 21](21.md) - **What's next?**: Closing the course with some suggestions.

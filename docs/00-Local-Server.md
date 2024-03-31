@@ -1,6 +1,13 @@
+---
+comments: true
+---
 # Day 0 - Creating Your Own Local Server
 
-* [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
+Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00.md) to review your options:
+
+* [In a Local Server](https://linuxupskillchallenge.org/00-Local-Server.md)
+* [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small.md)
+* [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big.md)
 
 ## It's difficult to create a server in cloud without a credit card
 
@@ -139,4 +146,4 @@ Or click on _Force Shutdown_
 * [Run Linux in a Docker container](https://hudsonmendes.medium.com/docker-have-a-ubuntu-development-machine-within-seconds-from-windows-or-mac-fd2f30a338e4)
 
 
-**Now you are ready to start the challenge. Day 1, here we go!**
+**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01.md), here we go!**

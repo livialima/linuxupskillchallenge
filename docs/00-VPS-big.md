@@ -1,14 +1,13 @@
+---
+comments: true
+---
 # Day 0 - Creating Your Own Server in the Cloud
 
-* [Complementary video](https://youtube.com/live/_-6UYOjRIVQ?feature=share)
+Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00.md) to review your options:
 
-## INTRO
-
-First, you need a server. You can't learn about administering a remote Linux server without having one of your own - so today we're going to get one - completely free!
-
-Through the magic of Linux and virtualization, it's now possible to get a small Internet server setup almost instantly - and at a very low cost. Technically, what you'll be doing is creating and renting a VPS  ("Virtual Private Server"). In a data center somewhere, a single physical server running Linux will be split into a dozen or more Virtual servers, using the KVM (Kernel-based Virtual Machine) feature that's been part of Linux since early 2007.
-
-In addition to a hosting provider, we also need to choose which "flavor" of Linux to install on our server. If you're new to Linux then the range of "distributions" available can be confusing - but the latest LTS ("Long Term Support") version of Ubuntu Server is a popular choice, and what you'll need for this course.
+* [In a Local Server](https://linuxupskillchallenge.org/00-Local-Server.md)
+* [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small.md)
+* [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big.md)
 
 ## Signing up with a VPS
 
@@ -115,4 +114,4 @@ You should be safe running the VM during the month for the challenge, but you ca
 
 When you no longer need the VM, **Terminate/Destroy** instance.
 
-**Now you are ready to start the challenge. Day 1, here we go!**
+**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01.md), here we go!**
