@@ -1,8 +1,8 @@
 # Linux Upskill Challenge
-## Learn the skills required to sysadmin a remote Linux server from the commandline.
+## Learn the skills required to sysadmin a remote Linux server from the command line.
 
 
-A month-long course aimed at those who aspire to get Linux-related jobs in the industry - junior Linux sysadmin, DevOps-related work, and similar. Server focussed and command line, but assumes essentially no prior knowledge, and starts off very gently - designed to be well-suited to a Windows or Apple person as well as those that already using Linux in some form.
+A month-long course aimed at those who aspire to get Linux-related jobs in the industry - junior Linux sysadmin, DevOps-related work, and similar. Server focused and command line, but assumes essentially no prior knowledge, and starts off very gently - designed to be well-suited to a Windows or Apple person as well as those that already using Linux in some form.
 
 This was a paid course in the past, but is now free and fully open source - so costs you nothing but your time!
 
@@ -11,7 +11,7 @@ This was a paid course in the past, but is now free and fully open source - so c
 1. Learn Linux enough to admin your own server
 2. The focus is on practical skills
 3. Heavily hands-on
-4. Acquire skills during a month, commiting of 1-2 hours each day
+4. Acquire skills during a month, committing of 1-2 hours each day
 5. Lots of curated external links
 6. Much less ‘formal’ than RHEL or Linux Foundation training
 
