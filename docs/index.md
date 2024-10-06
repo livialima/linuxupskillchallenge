@@ -19,6 +19,8 @@ This was a paid course in the past, but is now free and fully open source - so c
 
 First, take a look at the [FAQ and understand how the challenge works](how-this-works.md), most of your questions will be answered there.
 
+There's also a Linux User Group(LUG) talk about it with slides, podcast and vidcast material available: [KWLUG Meeting - Linux Upskill Challenge](https://kwlug.org/node/1381)
+
 If you’re keen to do this, then you will need your own Internet-exposed server - but full instructions on how to set this up for free or cheap are also provided.
 
 The course restarts on the first Monday of each month so don't worry if you can't make it on your first round!
