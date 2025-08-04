@@ -72,7 +72,7 @@ run before code is committed.
 Install pre-commit and the hook scripts defined in `.pre-commit-config.yaml`:
 
 ```bash
-pre-commit install-hooks
+pre-commit install && pre-commit install-hooks
 ```
 
 Pre-commit will now run prior to committing any code with git.
