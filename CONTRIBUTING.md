@@ -8,16 +8,14 @@ TODO
 
 TODO
 
-## Discussion ##
+## Pull-requests ##
 
 TODO
 
 ## Development environment ##
 
 Setting up a local development environment in Linux. Pull-requests welcome for
-MacOS support.
-
-(Although, this _is_ the "Linux Upskill Challenge", why not Linux?)
+MacOS support. (Although, this _is_ the "Linux Upskill Challenge", why not Linux?)
 
 ### Python environment ###
 
@@ -55,6 +53,10 @@ Linters:
 * [yamllint](https://yamllint.readthedocs.io/en/stable/index.html)
 * [markdownlint](https://github.com/DavidAnson/markdownlint)
 * [ShellCheck](https://github.com/koalaman/shellcheck)
+  * Via [shellcheck-py](https://github.com/shellcheck-py/shellcheck-py). It's
+  easier to manage this project dependency as a pip-installable package. Also,
+  pre-commit uses shellcheck-py because the native ShellCheck pre-commit hook
+  has an annoying Docker dependency.
 
 ### Pre-commit ###
 
@@ -104,4 +106,9 @@ Served from localhost: [LUC @localhost](http://127.0.0.1:8000)
 
 ### GitHub Actions workflows ###
 
-TODO
+Stages:
+
+* Validate
+* Build & Deploy
+
+TODO: Flesh out this section.

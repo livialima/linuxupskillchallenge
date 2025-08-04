@@ -22,3 +22,8 @@ repos:
     rev: v0.45.0
     hooks:
       - id: markdownlint
+  # https://github.com/shellcheck-py/shellcheck-py/blob/main/README.md#as-a-pre-commit-hook
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.10.0.1
+    hooks:
+      - id: shellcheck

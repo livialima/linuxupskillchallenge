@@ -3,3 +3,4 @@
 --requirement requirements.txt
 pre-commit
 yamllint
+shellcheck-py
