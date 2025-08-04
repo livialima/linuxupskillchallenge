@@ -5,9 +5,9 @@ name: ci
 on:
   push:
     branches:
-      # - master
-      # - main
-      - linting
+      # - dev
+      - master
+      - main
 permissions:
   contents: write
 
@@ -25,8 +25,13 @@ jobs:
       - run: pre-commit install-hooks
       - run: pre-commit run --all-files
 
+  # TODO: Deploy to dev site for testing?
+
   # Build and deploy the site
   deploy:
+    # Only deploy from master or main branches
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+    # Only build and deploy if validate succeeds
     needs: validate
     runs-on: ubuntu-latest
     steps:
