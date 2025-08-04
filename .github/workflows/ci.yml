@@ -21,10 +21,13 @@ jobs:
         with:
           python-version: 3.x
       - run: python3 -m pip install -r requirements-dev.txt
+      - run: pre-commit install
+      - run: pre-commit install-hooks
       - run: pre-commit run --all-files
 
   # Build and deploy the site
   deploy:
+    needs: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
