@@ -4,4 +4,3 @@ wheel
 setuptools
 mkdocs
 mkdocs-material
-

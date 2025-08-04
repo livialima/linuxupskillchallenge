@@ -1,7 +1,7 @@
 #!/bin/bash
-# 
+#
 # This will build one big PDF file from the course files.
-# 
+#
 # You may need to install some packages first for this to work:
 #
 # MAC:

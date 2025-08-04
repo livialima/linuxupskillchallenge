@@ -15,7 +15,7 @@ TODO
 ## Development environment ##
 
 Setting up a local development environment in Linux. Pull-requests welcome for
-MacOS support. 
+MacOS support.
 
 (Although, this _is_ the "Linux Upskill Challenge", why not Linux?)
 
