@@ -1,0 +1,7 @@
+# requirements.txt
+
+wheel
+setuptools
+mkdocs
+mkdocs-material
+
