@@ -15,8 +15,8 @@ Sign-up is fairly simple - just provide your email address and a password of you
 
 ### Comparison
 
-| Provider      | Instance Type           | vCPU | Memory | Storage   | Price*  | Trial Credits  | 
-| ------------- | ----------------------- | ---- | ------ | --------- | ------ | -------------- | 
+| Provider      | Instance Type           | vCPU | Memory | Storage   | Price*  | Trial Credits  |
+| ------------- | ----------------------- | ---- | ------ | --------- | ------ | -------------- |
 | [AWS](https://aws.amazon.com/free/)           | t2.micro                | 1    | 1 GB   | 8 GB SSD  | $18.27 | Free Tier for 1 year |
 | [Azure](https://azure.microsoft.com/free/)         | B1                      | 1    | 1 GB   | 30 GB SSD | $12.26 | $200 / 30 days + Free Tier for 1 year |
 | [GCP](https://cloud.google.com/free/docs/free-cloud-features)           | e2-micro                | 1    | 1 GB   | 10 GB SSD | $ 7.11 | $300 / 90 days |
@@ -33,7 +33,7 @@ On a side note, avoid IBM Cloud as much as you can. They do not offer good deals
 * Google Cloud for Students at [https://cloud.google.com/edu/students](https://cloud.google.com/edu/students)
 * Oracle Academy Cloud Program at [https://academy.oracle.com/en/solutions-cloud-program.html](https://academy.oracle.com/en/solutions-cloud-program.html)
 
-## Create a Virtual Machine 
+## Create a Virtual Machine
 
 The process is basically the same for all these VPS, but here are some step-by-steps:
 

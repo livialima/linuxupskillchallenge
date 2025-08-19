@@ -130,9 +130,9 @@ extra:
 
 # Page tree
 nav:
-  - Home: 
+  - Home:
     - index.md
-    - Start Here: 
+    - Start Here:
       - How this works: how-this-works.md
       - Get Your Own Server: 00.md
     - Lessons:

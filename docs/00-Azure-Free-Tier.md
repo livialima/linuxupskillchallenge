@@ -24,7 +24,7 @@ You will need to also provide your VISA or other credit card information.
 - Click 'Review + Create'
 - Azure will generate and download the private key file to SSH onto the box -
 - (Windows) double-click this to open on Windows and it will be added to your cert store on the machine
-- (Mac OS X and Linux) run the command 'sudo ssh-add -K /link-to-downloaded-file' 
+- (Mac OS X and Linux) run the command 'sudo ssh-add -K /link-to-downloaded-file'
 - Note: if the above command doesn't work for you then try running without sudo. If you get any error related to permissions then try running 'chmod 400 filename' first.
 - Connect to the machine using `ssh azureuser@PUBLICIP`
 

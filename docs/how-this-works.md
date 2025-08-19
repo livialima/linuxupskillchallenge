@@ -3,7 +3,7 @@
 ## RESOURCES
 
 * [Website of the course](https://LinuxUpskillChallenge.org)
-* [Full lesson source](https://github.com/livialima/linuxupskillchallenge) 
+* [Full lesson source](https://github.com/livialima/linuxupskillchallenge)
 * [Complementary video playlists](https://www.youtube.com/@livia2lima/search?query=linuxupskillchallenge)
 * [Monthly lessons on Lemmy](https://programming.dev/c/linuxupskillchallenge)
 * [Monthly lessons on Reddit](https://www.reddit.com/r/linuxupskillchallenge/)
@@ -100,4 +100,3 @@ The magnificent [Steve Brorens](http://snori74.blogspot.com) is the mastermind b
 We miss you, snori.
 
 [Livia Lima](https://bio.link/livialima) is the one currently maintaining the material. Give her a shout out on [Mastodon](https://fosstodon.org/@livialima) or [LinkedIn](https://www.linkedin.com/in/livialima/).
-

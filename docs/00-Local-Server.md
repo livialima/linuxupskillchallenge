@@ -73,12 +73,12 @@ Use **arrow keys** and the **enter key** to select options. When you're ok with 
 * **Profile Setup:** Enter your name, your server’s name, your username and password. This user will be your `administrator` user in the system (or `sudo`), so don't forget this password.
 * **Update to Ubuntu Pro:** No. Skip for now.
 * **SSH setup:** Select on Install OpenSSH server because that’s how you will connect to your server later.
-* **Featured Server Snaps:** None of these packages are important now, just select DONE. 
+* **Featured Server Snaps:** None of these packages are important now, just select DONE.
 * **Installing System:** Now you have to wait for a few minutes for your system to install. You can "cheat" and speed up the install by skipping the downloading of updates, select **Cancel update and Reboot** when it appears at the bottom of the page, a few moments later. You can complete the updates after the first boot. After the installation is complete the system will reboot automatically.
 
 ## Logging in for the first time
 
-After the first reboot, it will show a black screen asking for the `login`. That's when you use that username and password you created during the install. 
+After the first reboot, it will show a black screen asking for the `login`. That's when you use that username and password you created during the install.
 
 Note: the password will not show up, not even `***`, just trust that is taking it in.
 
