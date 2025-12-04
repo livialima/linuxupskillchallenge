@@ -14,10 +14,10 @@ Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to 
 Sign-up is immediate - just provide your email address and a password of your choosing and you're in! To be able to create a VM, however, you may need to provide your credit card information (or other information for billing) in the account section.
 
 ### Comparison
-| Provider      | Instance Type           | vCPU | Memory | Storage   | Price | Trial Credits  | 
-| ------------- | ----------------------- | ---- | ------ | --------- | ----- | -------------- | 
-| [Digital Ocean](https://m.do.co/c/0543704a0b92) | Basic Plan              | 1    | 1 GB   | 25 GB SSD | $6.00 | $200 / 60 days | 
-| [Linode](https://www.linode.com/lp/refer/?r=5f3727944be972fe99747977e0a25fc21390c5d0)        | Nanode 1GB              | 1    | 1 GB   | 25 GB SSD | $5.00 | $100 / 60 days | 
+| Provider      | Instance Type           | vCPU | Memory | Storage   | Price | Trial Credits  |
+| ------------- | ----------------------- | ---- | ------ | --------- | ----- | -------------- |
+| [Digital Ocean](https://m.do.co/c/0543704a0b92) | Basic Plan              | 1    | 1 GB   | 25 GB SSD | $6.00 | $200 / 60 days |
+| [Linode](https://www.linode.com/lp/refer/?r=5f3727944be972fe99747977e0a25fc21390c5d0)        | Nanode 1GB              | 1    | 1 GB   | 25 GB SSD | $5.00 | $100 / 60 days |
 | [Vultr](https://www.vultr.com/vultr-vs-linode/?promo=LINODE150)         | Cloud Compute - Regular | 1    | 1 GB   | 25 GB SSD | $5.00 | $250 / 30 days |
 
 For more details:
@@ -26,7 +26,7 @@ For more details:
 * [Get started with Linode](https://www.linode.com/docs/products/platform/get-started/)
 * [Get started with Vultr](https://www.vultr.com/resources/faq/)
 
-## Create a Virtual Machine 
+## Create a Virtual Machine
 
 The process is basically the same for all these VPS, but here some step-by-steps:
 

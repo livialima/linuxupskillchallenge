@@ -1,0 +1,11 @@
+---
+# .yamllint
+
+extends: default
+
+ignore:
+  - .env/
+  - node_modules/
+  # TODO: Lint these files
+  - .github/
+  - mkdocs.yml

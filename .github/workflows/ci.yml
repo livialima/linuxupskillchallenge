@@ -1,13 +1,38 @@
-name: ci 
+---
+# .github/workflows/ci.yml
+
+name: ci
 on:
   push:
     branches:
-      - master 
+      # - dev
+      - master
       - main
 permissions:
   contents: write
+
 jobs:
+  # Linting, syntax, and other checks
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: python3 -m pip install -r requirements-dev.txt
+      - run: pre-commit install
+      - run: pre-commit install-hooks
+      - run: pre-commit run --all-files
+
+  # TODO: Deploy to dev site for testing?
+
+  # Build and deploy the site
   deploy:
+    # Only deploy from master or main branches
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+    # Only build and deploy if validate succeeds
+    needs: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,12 +43,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
