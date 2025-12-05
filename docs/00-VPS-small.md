@@ -5,7 +5,7 @@ comments: true
 
 Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to review your options:
 
-* [In a Local Server](https://linuxupskillchallenge.org/00-Local-Server)
+* [In a Local Server/VM](https://linuxupskillchallenge.org/00-Local-Server)
 * [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small)
 * [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big)
 
