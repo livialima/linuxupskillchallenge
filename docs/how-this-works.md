@@ -4,7 +4,7 @@
 
 * [Website of the course](https://LinuxUpskillChallenge.org)
 * [Full lesson source](https://github.com/livialima/linuxupskillchallenge)
-* [Complementary video playlists](https://www.youtube.com/@livia2lima/search?query=linuxupskillchallenge)
+* [Video lessons and complementary videos](https://www.youtube.com/@livia2lima/search?query=linuxupskillchallenge)
 * [Monthly lessons on Lemmy](https://programming.dev/c/linuxupskillchallenge)
 * [Monthly lessons on Reddit](https://www.reddit.com/r/linuxupskillchallenge/)
 * [Chat with Discord](https://discord.gg/linux-upskill-challenge-682046666928685068)
@@ -46,7 +46,7 @@ However, many others have happily used the course simply to **improve their Linu
 
 No registration is required. Just follow along and share your experience.
 
-## Will I receive a certificate when I finish the challenge?
+### Will I receive a certificate when I finish the challenge?
 
 No certificates are available at the moment. But you can brag about it on [Lemmy](https://programming.dev/c/linuxupskillchallenge), [Reddit](https://www.reddit.com/r/linuxupskillchallenge/) or [Discord](https://discord.gg/linux-upskill-challenge-682046666928685068) if you feel inclined to do so.
 
