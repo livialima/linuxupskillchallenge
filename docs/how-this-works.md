@@ -119,7 +119,7 @@ If you are inclined to contribute to the material and had the means to do it (i.
 
 ## CREDITS
 
-The magnificent [Steve Brorens](http://snori74.blogspot.com) is the mastermind behind the Linux Upskill Challenge. Unfortunately, [he passed away](https://www.reddit.com/r/linuxupskillchallenge/comments/mki3uw/rest_in_peace_snori74/) but not before ensuring the course would continue to run in his absence.
+The magnificent [Steve Brorens](https://snori74.blogspot.com/2020/06/succession-planning-for.html) is the creator and mastermind behind the Linux Upskill Challenge. Unfortunately, [he passed away](https://www.reddit.com/r/linuxupskillchallenge/comments/mki3uw/rest_in_peace_snori74/) but not before ensuring the course would continue to run in his absence.
 We miss you, snori.
 
 [Livia Lima](https://bio.link/livialima) is the one currently maintaining the material. Give her a shout out on [Mastodon](https://fosstodon.org/@livialima) or [LinkedIn](https://www.linkedin.com/in/livialima/).
