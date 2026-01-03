@@ -67,6 +67,9 @@ Use **arrow keys** and the **enter key** to select options. When you're ok with 
 * **Welcome Screen:** Select your language
 * **Keyboard Configuration:** Select Keyboard type
 * **Choose type of install:** Select _Ubuntu Server (minimized)_. It comes with most of the packages you need without being bloated. It will install faster too.
+
+**NOTE ABOUT UBUNTU SERVER MINIMIZED**: it is a stripped-down version of the Ubuntu Server. The primary advantage is its reduced resource consumption; it uses less disk space, memory, and CPU compared to a standard Ubuntu Server installation, making it ideal for environments with limited hardware. However, it lacks many convenience tools and default packages, so those may require manual installation later on. It's not the end of the world, if anything it will force you to practice the command line more often. But if you don't want that hassle and have enough hardware, reserve 2GB memory and 20GB disk, and proceed with a full standard Ubuntu Server installation.
+
 * **Network Connections:** If you have setup the VM to use a **bridged adapter** like instructed, you don’t really have to worry a lot. The installer will automatically detect the DHCP settings from your local network router and you just have to select DONE.
 * **Configure Proxy:** If your system requires any http proxy to connect to the internet enter the proxy address, otherwise just select DONE.
 * **Configure Ubuntu archive mirror:** Leave it as default. DONE.
