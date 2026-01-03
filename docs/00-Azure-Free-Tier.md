@@ -9,6 +9,8 @@ Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to 
 * [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small)
 * [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big)
 
+**TIP**: check out the walk-though in the [complementary video](https://www.youtube.com/live/_-6UYOjRIVQ?t=7020s). This video covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
+
 ## Signing up with Azure
 
 Sign-up is fairly simple - just provide your email address and a password of your choosing - along with a phone number for a 2FA - a second method of authentication. Azure can be a bit funny about 'corporate' email addresses, eg using a work address or your own domain. Create a new @outlook or @gmail.com account if so using the link on the sign-up page.
@@ -44,23 +46,33 @@ This opens all ports and protocols to access from anywhere. While this might be 
 
 Ensure your machine is 'running' (if not, click 'start') and connect using the 'connect -> ssh' dropdown and following instructions
 
-You will be logging in as the user *azureuser*. It has been added to the 'adm' and 'sudo' groups, which on an Ubuntu system gives it access to read various logs - and to "become root" as required via the _sudo_ command.
+You will be logging in as the user `azureuser`. It has been added to the `adm` and `sudo` groups, which on an Ubuntu system gives it access to read various logs - and to "become root" as required via the _sudo_ command.
 
 ## You are now a sysadmin
 
 Confirm that you can do administrative tasks by typing:
 
-`sudo apt update`
+```bash
+sudo apt update
+```
 
-(Normally you'd expect this would prompt you to confirm your password, but because you're using public key authentication the system hasn't prompted you to set up a password - and Azure have configured *sudo* to not request one for "azureuser").
+(Normally you'd expect this would prompt you to confirm your password, but because you're using public key authentication the system hasn't prompted you to set up a password - and Azure have configured `sudo` to not request one for `azureuser`).
 
 Then:
 
-`sudo apt upgrade`
+```bash
+sudo apt upgrade -y
+```
 
 Don't worry too much about the output and messages from these commands, but it should be clear whether they succeeded or not. (Reply to any prompts by taking the default option). These commands are how you force the installation of updates on an Ubuntu Linux system, and only an administrator can do them.
 
-To logout, type _logout_ or _exit_.
+**REBOOT**
+
+When a kernel update is identified in this first check for updates, the system might ask the user to reboot. This is one of the few occasions you will need to reboot your server, so go for it after the update is done:
+
+```bash
+sudo reboot now
+```
 
 Your server is now all set up and ready for the course!
 
@@ -69,5 +81,13 @@ Note that:
 * This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now
+
+To logout, type `logout` or `exit`.
+
+## When you are done
+
+You should be safe running the VM during the month for the challenge, but you can **Stop** the instance at any point. It will continue to count towards the bill, though.
+
+When you no longer need the VM, **Terminate/Destroy** instance.
 
 **Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), here we go!**

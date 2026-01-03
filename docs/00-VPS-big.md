@@ -9,6 +9,8 @@ Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to 
 * [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small)
 * [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big)
 
+**TIP**: check out the walk-though in the [complementary video](https://www.youtube.com/live/_-6UYOjRIVQ). This video covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud) and can help you choose.
+
 ## Signing up with a VPS
 
 Sign-up is fairly simple - just provide your email address and a password of your choosing - along with a phone number for a 2FA or another second method of authentication. You will need to also provide your credit card information.
@@ -24,7 +26,7 @@ Sign-up is fairly simple - just provide your email address and a password of you
 
 * *Estimate prices*
 
-On a side note, avoid IBM Cloud as much as you can. They do not offer good deals and, according to some reports from previous students, their Linux VM is tampered with enough to the point some commands do not work as expected.
+On a side note, avoid IBM Cloud as much as you can. They do not offer good deals and, according to some reports from previous students, their Linux VM is tampered with too much, to the point some commands do not work as expected.
 
 ### Educational Packs
 
@@ -54,25 +56,29 @@ The process is basically the same for all these VPS, but here are some step-by-s
 
 ## Logging in for the first time
 
-Select your instance and click "SSH", it will open a new window console. To access the root, type "sudo -i passwd" in the command line then set your own password. Log in by typing "su" and "password". Note that the password won't show as you type or paste it.
+Select your instance and click "SSH", it will open a new window console. To access the root, type `sudo -i passwd` in the command line then set your own password. Log in by typing `su` and then your password. Note that the password won't show as you type or paste it.
 
 ## Remote access via SSH
 
 You should see a "Public IPv4 address" (or similar) entry for your server in the account's control panel, this is its unique Internet IP address, and it is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
 
-If you are using Windows 10 or 11, follow the instructions to [connect using the native SSH client](https://youtu.be/Z46YbczqbiE). In older versions of Windows, you may need to install a 3rd party SSH client, like [PuTTY](https://youtu.be/pWDHUlvcAsg), and generate an [ssh](https://youtu.be/4jakCV5JYx0) [key pair](https://youtu.be/4jakCV5JYx0).
+If you are using Windows 10 or 11, follow the instructions to [connect using the native SSH client](https://youtu.be/Z46YbczqbiE). In older versions of Windows, you may need to install a 3rd party SSH client, like [PuTTY](https://youtu.be/pWDHUlvcAsg), and generate a [ssh key-pair](https://youtu.be/4jakCV5JYx0).
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
-`ssh username@ip_address`
+```bash
+ssh username@ip_address
+```
 
-Or, using the SSH private key, `ssh -i private_key username@ip_address`
+Or, using the SSH private key:
+
+```bash
+ssh -i private_key username@ip_address
+```
 
 Enter your password (or a passphrase, if your SSH key is protected with one)
 
-Voila! You have just accessed your server remotely.
-
-If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ) that covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr, and Oracle Cloud).
+Voilà! You have just accessed your server remotely.
 
 ### What about the *root* user?
 
@@ -82,27 +88,33 @@ Working on a different approach from smaller VPS, the big guys don't let use roo
 
 Confirm that you can do administrative tasks by typing:
 
-`sudo apt update`
+```bash
+sudo apt update
+```
 
-(Normally you'd expect this would prompt you to confirm your password, but because you're using public key authentication the system hasn't prompted you to set up a password - and AWS has configured _sudo_* to not request one for "ubuntu").
+(Normally you'd expect this would prompt you to confirm your password, but because you're using public key authentication the system hasn't prompted you to set up a password - and AWS have configured `sudo` to not request one for `ubuntu`).
 
 Then:
 
-`sudo apt upgrade -y`
+```bash
+sudo apt upgrade -y
+```
 
 Don't worry too much about the output and messages from these commands, but it should be clear whether they succeeded or not. (Reply to any prompts by taking the default option). These commands are how you force the installation of updates on an Ubuntu Linux system, and only an administrator can do them.
 
 **REBOOT**
 
-When a kernel update is identified in this first check for updates, this is one of the few occasions you will need to reboot your server, so go for it:
+When a kernel update is identified in this first check for updates, the system might ask the user to reboot. This is one of the few occasions you will need to reboot your server, so go for it after the update is done:
 
-`sudo reboot now`
+```bash
+sudo reboot now
+```
 
-Your server is now all setup and ready for the course!
+Your server is now all set up and ready for the course!
 
 Note that:
 
-* This server is now running and completely exposed to the whole Internet
+* This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now
 
@@ -110,7 +122,7 @@ To logout, type `logout` or `exit`.
 
 ## When you are done
 
-You should be safe running the VM during the month for the challenge, but you can **Stop** the instance at any point. It will continue to count toward the bill, though.
+You should be safe running the VM during the month for the challenge, but you can **Stop** the instance at any point. It will continue to count towards the bill, though.
 
 When you no longer need the VM, **Terminate/Destroy** instance.
 

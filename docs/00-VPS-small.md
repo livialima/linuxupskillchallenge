@@ -9,6 +9,8 @@ Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to 
 * [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small)
 * [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big)
 
+**TIP**: check out the walk-though in the [complementary video](https://www.youtube.com/live/_-6UYOjRIVQ). This video covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud) and can help you choose.
+
 ## Signing up with a VPS
 
 Sign-up is immediate - just provide your email address and a password of your choosing and you're in! To be able to create a VM, however, you may need to provide your credit card information (or other information for billing) in the account section.
@@ -28,7 +30,7 @@ For more details:
 
 ## Create a Virtual Machine
 
-The process is basically the same for all these VPS, but here some step-by-steps:
+The process is basically the same for all these VPS, but here are some step-by-steps:
 
 ### VM with Digital Ocean (or Droplet)
 
@@ -80,39 +82,49 @@ We are going to access our server using SSH but, if for some reason you get stuc
 
 ## Remote access via SSH
 
-You should see a "Public IPv4 address" (or similar) entry for your server in account's control panel, this is its unique Internet IP address, and it is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
+You should see a "Public IPv4 address" (or similar) entry for your server in the account's control panel, this is its unique Internet IP address, and it is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
 
 * **Digital Ocean**: Click on *Networking tab > Public Network > Public IPv4 Address*
 * **Linode**: Click on *Network tab > IP Addresses > IPv4 - Public*
 * **Vultr**: Click on *Settings tab > Public Network > Address*
 
-If you are using Windows 10 or 11, follow the instructions to [connect using the native SSH client](https://youtu.be/Z46YbczqbiE). In older versions of Windows, you may need to install a 3rd party SSH client, like [PuTTY](https://youtu.be/pWDHUlvcAsg) and generate a [ssh key-pair](https://youtu.be/4jakCV5JYx0).
+If you are using Windows 10 or 11, follow the instructions to [connect using the native SSH client](https://youtu.be/Z46YbczqbiE). In older versions of Windows, you may need to install a 3rd party SSH client, like [PuTTY](https://youtu.be/pWDHUlvcAsg), and generate a [ssh key-pair](https://youtu.be/4jakCV5JYx0).
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
-`ssh username@ip_address`
+```bash
+ssh username@ip_address
+```
 
-Or, using the SSH private key, `ssh -i private_key username@ip_address`
+Or, using the SSH private key:
+
+```bash
+ssh -i private_key username@ip_address
+```
 
 Enter your password (or a passphrase, if your SSH key is protected with one)
 
-Voila! You have just accessed your server remotely.
-
-If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ) that covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
+Voilà! You have just accessed your server remotely.
 
 ## Creating a working admin account
 
 We want to follow the Best Practice of not logging as "root" remotely, so we'll create an ordinary user account, but one with the power to "become root" as necessary, like this:
 
-`adduser snori74`
+```bash
+adduser snori74
+```
 
-`usermod -a -G admin snori74`
+```bash
+usermod -a -G admin snori74
+```
 
-`usermod -a -G sudo snori74`
+```bash
+usermod -a -G sudo snori74
+```
 
-(Of course, replace 'snori74' with your name!)
+(Of course, replace `snori74` with your name!)
 
-*This* will be the account that you use to login and work with your server. It has been added to the 'adm' and 'sudo' groups, which on an Ubuntu system gives it access to read various logs and to "become root" as required via the _sudo_ command.
+*This* will be the account that you use to login and work with your server. It has been added to the `adm` and `sudo` groups, which on an Ubuntu system gives it access to read various logs and to "become root" as required via the _sudo_ command.
 
 To login using your new user, [copy the SSH key from root](https://askubuntu.com/questions/1218023/copying-ssh-key-from-root-to-another-user-on-same-machine/1218026#1218026).
 
@@ -120,19 +132,25 @@ To login using your new user, [copy the SSH key from root](https://askubuntu.com
 
 Confirm that you can do administrative tasks by typing:
 
-`sudo apt update`
+```bash
+sudo apt update
+```
 
 Then:
 
-`sudo apt upgrade -y`
+```bash
+sudo apt upgrade -y
+```
 
 Don't worry too much about the output and messages from these commands, but it should be clear whether they succeeded or not. (Reply to any prompts by taking the default option). These commands are how you force the installation of updates on an Ubuntu Linux system, and only an administrator can do them.
 
 **REBOOT**
 
-When a kernel update is identified in this first check for updates, this is one of the few occasions you will need to reboot your server, so go for it after the update is done:
+When a kernel update is identified in this first check for updates, the system might ask the user to reboot. This is one of the few occasions you will need to reboot your server, so go for it after the update is done:
 
-`sudo reboot now`
+```bash
+sudo reboot now
+```
 
 Your server is now all set up and ready for the course!
 
@@ -146,7 +164,7 @@ To logout, type `logout` or `exit`.
 
 ## When you are done
 
-You should be safe running the VM during the month for the challenge, but you can **Stop** the instance at any point. It will continue to count to the bill, though.
+You should be safe running the VM during the month for the challenge, but you can **Stop** the instance at any point. It will continue to count towards the bill, though.
 
 When you no longer need the VM, **Terminate/Destroy** instance.
 

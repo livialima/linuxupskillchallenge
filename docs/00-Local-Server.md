@@ -9,6 +9,8 @@ Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to 
 * [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small)
 * [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big)
 
+**TIP**: check out the walk-though in the [complementary video](https://www.youtube.com/live/_-6UYOjRIVQ?t=643s). This video covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
+
 ## It's difficult to create a server in cloud without a credit card
 
 We normally recommend using Amazon's AWS "Free Tier" or Digital Ocean - but both require that you have a credit card. The same is true of the Microsoft Azure, Google's GCP and the vast majority of providers listed at Low End Box (<https://lowendbox.com/>).
@@ -27,7 +29,7 @@ Some will accept PayPal, or Bitcoin - but typically those who don't have a credi
 
 You can run the challenge on a home server and all the commands will work as they would on a cloud server. However, not being exposed to the wild certainly loses the feel of what real sysadmins have to face.
 
-If you set your own VM at a private server, go for the minimum requirements like 1GHz CPU core, 1GB RAM, and a couple of gigs of disk space. You can always adapt this to your heart's desire (or how much hardware you have available).
+If you set your own VM at a private server, go for the minimum requirements like 1GHz CPU core, 1GB RAM, and 5GB of disk space. You can always adapt this to your heart's desire (or how much hardware you have available).
 
 Our recommendation is: use a cloud server if you can, to get the full experience, but don't get limited by it. **This is your server.**
 
@@ -50,7 +52,7 @@ Install [VirtualBox](https://www.virtualbox.org/), when ready:
 * **Finish** but we're not done yet.
 * The new VM should show up in a list of VMs, select it.
 * Click on *Machine > Settings*
-* Click on *Storage*. Right-click on Controllet IDE, click on *Optical Drive*.
+* Click on *Storage*. Right-click on Controller IDE, click on *Optical Drive*.
 * Select the Linux ISO you downloaded from the list if available, if not click *Add* and find it in your directories. Click *Choose*.
 * Click on *Network* and change the network adapter to **Bridged Adapter**.
 * Click *OK*
@@ -80,11 +82,13 @@ Use **arrow keys** and the **enter key** to select options. When you're ok with 
 
 After the first reboot, it will show a black screen asking for the `login`. That's when you use that username and password you created during the install.
 
-Note: the password will not show up, not even `***`, just trust that is taking it in.
+Note: the password will not show up, not even `******`, just trust that is taking it in.
 
 If you need to find out the IP address for the VM, just type in the console:
 
-`ip address`
+```bash
+ip address
+```
 
 That will give you the `inet`, i.e., the ip address. You will need that to connect with SSH.
 
@@ -94,33 +98,43 @@ If you are using Windows 10 or 11, follow the instructions to [connect using the
 
 If you are on Linux or MacOS, open a terminal and run the command:
 
-`ssh username@ip_address`
+```bash
+ssh username@ip_address
+```
 
-Or, using the SSH private key, `ssh -i private_key username@ip_address`
+Or, using the SSH private key:
+
+```bash
+ssh -i private_key username@ip_address
+```
 
 Enter your password (or a passphrase, if your SSH key is protected with one)
 
-Voila! You have just accessed your server remotely.
-
-If in doubt, consult the [complementary video](https://youtube.com/live/_-6UYOjRIVQ) that covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
+Voilà! You have just accessed your server remotely.
 
 ## You are now a sysadmin
 
 Confirm that you can do administrative tasks by typing:
 
-`sudo apt update`
+```bash
+sudo apt update
+```
 
 Then:
 
-`sudo apt upgrade -y`
+```bash
+sudo apt upgrade -y
+```
 
 Don't worry too much about the output and messages from these commands, but it should be clear whether they succeeded or not. (Reply to any prompts by taking the default option). These commands are how you force the installation of updates on an Ubuntu Linux system, and only an administrator can do them.
 
 **REBOOT**
 
-When a kernel update is identified in this first check for updates, this is one of the few occasions you will need to reboot your server, so go for it after the update is done:
+When a kernel update is identified in this first check for updates, the system might ask the user to reboot. This is one of the few occasions you will need to reboot your server, so go for it after the update is done:
 
-`sudo reboot now`
+```bash
+sudo reboot now
+```
 
 Your server is now all set up and ready for the course!
 
@@ -132,9 +146,11 @@ To logout, type `logout` or `exit`.
 
 ## When you are done
 
-Just type:
+To shutdown your server while you're not using it, just type:
 
-`sudo shutdown now`
+```bash
+sudo shutdown now
+```
 
 Or click on _Force Shutdown_
 

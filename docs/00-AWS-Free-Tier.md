@@ -9,7 +9,10 @@ Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to 
 * [In the Cloud (with providers like DigitalOcean, Linode and Vultr)](https://linuxupskillchallenge.org/00-VPS-small)
 * [In the Cloud (with providers like AWS, Azure and Google Cloud)](https://linuxupskillchallenge.org/00-VPS-big)
 
+**TIP**: check out the walk-though in the [complementary video](https://www.youtube.com/live/_-6UYOjRIVQ?t=2892s). This video covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud).
+
 ## AWS free-tier, is it always free?
+
 The AWS Free Tier is designed to allow new users to explore and test various AWS services without incurring any costs for 12 months following the AWS sign-up date, subject to certain usage limits. When your 12 month free usage term expires or if your application use exceeds the tiers, you simply pay standard, pay-as-you-go service rates. You can extend that free usage with an Educate Pack, if you are eligible.
 
 ## Signing up with AWS Educate pack:
@@ -52,27 +55,37 @@ Your server instance should now launch, and you can login to it by:
 
 ## Remote access via SSH
 
-You should see an "IPv4" entry for your server, this is its unique Internet IP address, and is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
+You should see a "Public IPv4 address" (or similar) entry for your server in the account's control panel, this is its unique Internet IP address, and it is how you'll connect to it via SSH (the Secure Shell protocol) - something we'll be covering in the first lesson.
 
 This video, [How to Set Up AWS EC2 and Connect to Linux Instance with PuTTY](https://www.youtube.com/watch?v=kARWT4ETcCs), gives a good overview of the process.
 
-You will be logging in as the user *ubuntu*. It has been added to the 'adm' and 'sudo' groups, which on an Ubuntu system gives it access to read various logs - and to "become root" as required via the _sudo_ command.
+You will be logging in as the user `ubuntu`. It has been added to the `adm` and `sudo` groups, which on an Ubuntu system gives it access to read various logs - and to "become root" as required via the _sudo_ command.
 
 ## You are now a sysadmin
 
 Confirm that you can do administrative tasks by typing:
 
-`sudo apt update`
+```bash
+sudo apt update
+```
 
-(Normally you'd expect this would prompt you to confirm your password, but because you're using public key authentication the system hasn't prompted you to set up a password - and AWS have configured *sudo* to not request one for "ubuntu").
+(Normally you'd expect this would prompt you to confirm your password, but because you're using public key authentication the system hasn't prompted you to set up a password - and AWS have configured `sudo` to not request one for `ubuntu`).
 
 Then:
 
-`sudo apt upgrade`
+```bash
+sudo apt upgrade -y
+```
 
 Don't worry too much about the output and messages from these commands, but it should be clear whether they succeeded or not. (Reply to any prompts by taking the default option). These commands are how you force the installation of updates on an Ubuntu Linux system, and only an administrator can do them.
 
-To logout, type _logout_ or _exit_.
+**REBOOT**
+
+When a kernel update is identified in this first check for updates, the system might ask the user to reboot. This is one of the few occasions you will need to reboot your server, so go for it after the update is done:
+
+```bash
+sudo reboot now
+```
 
 Your server is now all set up and ready for the course!
 
@@ -81,5 +94,13 @@ Note that:
 * This server is now running, and completely exposed to the whole of the Internet
 * You alone are responsible for managing it
 * You have just installed the latest updates, so it should be secure for now
+
+To logout, type `logout` or `exit`.
+
+## When you are done
+
+You should be safe running the VM during the month for the challenge, but you can **Stop** the instance at any point. It will continue to count towards the bill, though.
+
+When you no longer need the VM, **Terminate/Destroy** instance.
 
 **Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), here we go!**
