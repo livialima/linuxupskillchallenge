@@ -162,4 +162,4 @@ Or click on _Force Shutdown_
 * [Run Linux in a Docker container](https://hudsonmendes.medium.com/docker-have-a-ubuntu-development-machine-within-seconds-from-windows-or-mac-fd2f30a338e4)
 
 
-**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), here we go!**
+**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), let's go!**

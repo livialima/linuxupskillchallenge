@@ -103,4 +103,4 @@ You should be safe running the VM during the month for the challenge, but you ca
 
 When you no longer need the VM, **Terminate/Destroy** instance.
 
-**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), here we go!**
+**Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), let's go!**
