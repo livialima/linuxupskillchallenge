@@ -12,7 +12,7 @@ repo_url: https://github.com/livialima/linuxupskillchallenge
 edit_uri: blob/master/docs
 
 # Copyright
-copyright: Copyright &copy; 2012-2020 @snori74 (Steve Brorens) - Open Source since 2020 under the terms of the Creative Commons Attribution 4.0 International Licence (CC BY 4.0).
+copyright: Copyright &copy; 2012-2019 Steve Brorens (@snori74) <br> Open Source since 2020 under the terms of the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 # Extensions
 markdown_extensions:

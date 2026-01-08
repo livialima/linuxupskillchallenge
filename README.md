@@ -9,11 +9,12 @@
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/livialima/linuxupskillchallenge?style=for-the-badge">
   <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/livialima/linuxupskillchallenge?style=for-the-badge">
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/livialima/linuxupskillchallenge?style=for-the-badge">
-  <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors"></a></br>
-  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 164px !important;" ></a>
+  <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors"></a>
 </div>
 
-This includes all the source material for the 20 lessons of what was previously a commercial online Linux server admin course - now free for you to learn with!
+**The Linux Upskill Challenge is free and open source — and it always will be.**
+
+All core learning materials are accessible year-round. No subscriptions, no registration required - so costs you nothing but your time!
 
 *If you spot any typos or "dead links" simply [raise an issue](https://github.com/livialima/linuxupskillchallenge/issues/new/choose).*
 
@@ -52,7 +53,7 @@ This includes all the source material for the 20 lessons of what was previously 
 * [Day 20](docs/20.md) - **Scripting**: Understanding how scripting work in Linux, the shebang, permissions and $PATH. A couple of simple sample scripts based on the filtering of logs we've been doing. Resources to explore further.
 * [Day 21](docs/21.md) - **What's next?**: Closing the course with some suggestions.
 
-*You are free to use this under the terms of the license, but feel free to donate or contribute to keep the challenge running:*
+*If this helped you and you’re able to support its maintenance and development, you can do so here:*
 <p>
   <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors&label=Be%20a%20Sponsor!"></a>
   <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 114px !important;" ></a>

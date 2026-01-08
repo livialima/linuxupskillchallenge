@@ -1,10 +1,11 @@
 # Linux Upskill Challenge
 ## Learn the skills required to sysadmin a remote Linux server from the command line.
 
-
 A month-long course aimed at those who aspire to get Linux-related jobs in the industry - junior Linux sysadmin, DevOps-related work, and similar. Server focused and command line, but assumes essentially no prior knowledge, and starts off very gently - designed to be well-suited to a Windows or Apple person as well as those that already using Linux in some form.
 
-This was a paid course in the past, but is now free and fully open source - so costs you nothing but your time!
+**The Linux Upskill Challenge is free and open source — and it always will be.**
+
+All core learning materials are accessible year-round. No subscriptions, no registration required - so costs you nothing but your time!
 
 ### What's it about?
 
@@ -27,6 +28,7 @@ The course restarts on the first Monday of each month so don't worry if you can'
 
 ## Table of Contents
 
+* [How this works and FAQ](how-this-works.md) - PLEASE READ THIS FIRST!
 * [Day 0](00.md) - **Creating Your Own Server**: how to setup your lab in AWS, Azure, Google Cloud, Oracle Cloud, Digital Ocean, Linode, Vultr and on a local server too!
 * [Day 1](01.md) - **Get to know your server**: Starting with `ssh`-ing in and some simple commands like: `ls`, `uptime`, `free`, `df -h`, `uname -a`. Extensions on doing passwordless login with public keys and and an `ssh` config file.
 * [Day 2](02.md) - **Basic navigation**: Basic navigation, the "man" pages, file hierarchy
