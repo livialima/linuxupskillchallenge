@@ -3,7 +3,8 @@
 
 A month-long course aimed at those who aspire to get Linux-related jobs in the industry - junior Linux sysadmin, DevOps-related work, and similar. Server focused and command line, but assumes essentially no prior knowledge, and starts off very gently - designed to be well-suited to a Windows or Apple person as well as those that already using Linux in some form.
 
-**The Linux Upskill Challenge is free and open source — and it always will be.**
+**Linux Upskill Challenge is free and open source — and it always will be.**
+If it helped you and you’d like to support its maintenance, you can do that here: [Donate](https://www.buymeacoffee.com/livialima) or [Sponsor](https://github.com/sponsors/livialima).
 
 All core learning materials are accessible year-round. No subscriptions, no registration required - so costs you nothing but your time!
 

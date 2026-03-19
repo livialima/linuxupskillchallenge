@@ -12,7 +12,8 @@
   <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors"></a>
 </div>
 
-**The Linux Upskill Challenge is free and open source — and it always will be.**
+**Linux Upskill Challenge is free and open source — and it always will be.**
+If it helped you and you’d like to support its maintenance, you can do that here: [Donate](https://www.buymeacoffee.com/livialima) or [Sponsor](https://github.com/sponsors/livialima).
 
 All core learning materials are accessible year-round. No subscriptions, no registration required - so costs you nothing but your time!
 
@@ -53,8 +54,5 @@ All core learning materials are accessible year-round. No subscriptions, no regi
 * [Day 20](docs/20.md) - **Scripting**: Understanding how scripting work in Linux, the shebang, permissions and $PATH. A couple of simple sample scripts based on the filtering of logs we've been doing. Resources to explore further.
 * [Day 21](docs/21.md) - **What's next?**: Closing the course with some suggestions.
 
-*If this helped you and you’re able to support its maintenance and development, you can do so here:*
-<p>
-  <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors&label=Be%20a%20Sponsor!"></a>
-  <a href="https://www.buymeacoffee.com/livialima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 114px !important;" ></a>
-</p>
+**Thank you for being part of this community and happy Linuxing!**
+
