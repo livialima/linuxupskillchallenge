@@ -55,4 +55,3 @@ All core learning materials are accessible year-round. No subscriptions, no regi
 * [Day 21](docs/21.md) - **What's next?**: Closing the course with some suggestions.
 
 **Thank you for being part of this community and happy Linuxing!**
-
