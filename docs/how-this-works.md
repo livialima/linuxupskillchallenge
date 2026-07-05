@@ -66,6 +66,8 @@ Only if you want to. The material is [available year-round](https://github.com/l
 
 Yes, if you’re in the target audience (see above) you definitely should. The fact that such a server is very remote, and open to attack from the whole Internet, “makes it real”. Learning how to setup such a VPS is also a handy skill for any sysadmin.
 
+**NEW!** Now you can skip this whole thing and just use our [Killercoda scenarios](https://killercoda.com/linux-upskill-challenge). Please note this is still in a testing phase and might present limitations.
+
 Instructions for setting up a suitable server with a couple of providers are in the "Day 0" lessons. By all means use a different provider, but ensure you use Ubuntu LTS (preferably the latest version) and either use public key authentication or a _Long, Strong, Unique_ password (we also have instructions on how to do that).
 
 Of course, you’re perfectly entitled to use a local VM, a Raspberry Pi or even just WSL instead – and all of these will work fine for the course material. Just keep in mind what you are missing.
