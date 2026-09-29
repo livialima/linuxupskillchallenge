@@ -1,4 +1,4 @@
-# PLEASE READ THIS FIRST! HOW THIS WORKS & FAQ
+# You should probably read this first: how it works and FAQ
 
 ## RESOURCES
 
